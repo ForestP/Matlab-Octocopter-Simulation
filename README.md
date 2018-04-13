@@ -31,3 +31,9 @@ From here there are two routes:
 or
 
 2. Import old CAD model from known working simulation and verify it is not a different problem in the setup
+
+## Project Images
+![alt text](https://github.com/ForestP/Matlab-Octocopter-Simulation/blob/master/Images/cad.png)
+![alt text](https://github.com/ForestP/Matlab-Octocopter-Simulation/blob/master/Images/layout.png)
+![alt text](https://github.com/ForestP/Matlab-Octocopter-Simulation/blob/master/Images/motors.png)
+![alt text](https://github.com/ForestP/Matlab-Octocopter-Simulation/blob/master/Images/Octocopter.jpg)
