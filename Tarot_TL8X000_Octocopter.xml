@@ -1,0 +1,2797 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/29/17||14:49:53" using="Simscape Multibody Link Version 5.1" from="SolidWorks 25.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Tarot TL8X000 Octocopter" uid="Tarot TL8X000 Octocopter" version="640">
+<AssemblyFile name="Tarot TL8X000 Octocopter.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Tarot Hub Strut-1" uid="Tarot Hub Strut-1" entityUid="Tarot Hub Strut*:*Default">
+<Transform>
+<Rotation>0.85813439257048851 0 -0.51342513016766012 0 1 0 0.51342513016766012 0 0.85813439257048851</Rotation>
+<Translation>0.025868045175189681 0.16555269146411034 0.19295411600782131</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate-1" uid="Tarot Hub Top Plate-1" grounded="true" entityUid="Tarot Hub Top Plate*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.056253109704978821 0.18330269146411032 0.26631015088921706</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip-1" uid="Tarot Hub Top Plate Clip-1" entityUid="Tarot Hub Top Plate Clip*:*Default">
+<Transform>
+<Rotation>0.92358651358053101 0 0.38339007803040448 0 1 0 -0.38339007803040448 0 0.92358651358053101</Rotation>
+<Translation>0.012263594415956938 0.19255269146411033 0.16005609313928879</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Lock-1" uid="Tarot Hub Top Plate Clip Lock-1" entityUid="Tarot Hub Top Plate Clip Lock*:*Default">
+<Transform>
+<Rotation>-0.92200128684126015 0 -0.38718681158203233 0 1 0 0.38718681158203233 0 -0.92200128684126015</Rotation>
+<Translation>0.00083016705715600566 0.18005269146411032 0.13254295873993102</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Screw-1" uid="Tarot Hub Top Plate Clip Screw-1" entityUid="Tarot Hub Top Plate Clip Screw*:*Default">
+<Transform>
+<Rotation>-0.99843476144052412 0 -0.055928768511419993 0 1 0 0.055928768511419993 0 -0.99843476144052412</Rotation>
+<Translation>0.0019120623091360754 0.18480269146411032 0.13511925727261434</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Lock-2" uid="Tarot Hub Top Plate Clip Lock-2" entityUid="Tarot Hub Top Plate Clip Lock*:*Default">
+<Transform>
+<Rotation>-0.3781709421325235 0 -0.92573578224383202 0 1 0 0.92573578224383202 0 -0.3781709421325235</Rotation>
+<Translation>-0.077524517543653956 0.18005269146411032 0.21091240079976184</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Lock-3" uid="Tarot Hub Top Plate Clip Lock-3" entityUid="Tarot Hub Top Plate Clip Lock*:*Default">
+<Transform>
+<Rotation>0.38718681158203555 0 -0.92200128684125882 0 1 0 0.92200128684125882 0 0.38718681158203555</Rotation>
+<Translation>-0.077514082444306992 0.18005269146411032 0.32173309353704033</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Lock-4" uid="Tarot Hub Top Plate Clip Lock-4" entityUid="Tarot Hub Top Plate Clip Lock*:*Default">
+<Transform>
+<Rotation>0.92573578224383324 0 -0.37817094213252023 0 1 0 0.37817094213252023 0 0.92573578224383324</Rotation>
+<Translation>0.00085535961552410389 0.18005269146411032 0.40008777813785001</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Lock-5" uid="Tarot Hub Top Plate Clip Lock-5" entityUid="Tarot Hub Top Plate Clip Lock*:*Default">
+<Transform>
+<Rotation>0.92200128684125748 0 0.38718681158203877 0 1 0 -0.38718681158203877 0 0.92200128684125748</Rotation>
+<Translation>0.11167605235280258 0.18005269146411032 0.40007734303850262</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip-3" uid="Tarot Hub Top Plate Clip-3" entityUid="Tarot Hub Top Plate Clip*:*Default">
+<Transform>
+<Rotation>-0.3833900780304077 0 0.92358651358052968 0 1 0 -0.92358651358052968 0 -0.3833900780304077</Rotation>
+<Translation>-0.050000948044949284 0.19255269146411033 0.31029966617823934</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Lock-7" uid="Tarot Hub Top Plate Clip Lock-7" entityUid="Tarot Hub Top Plate Clip Lock*:*Default">
+<Transform>
+<Rotation>-0.38718681158204199 0 0.92200128684125604 0 1 0 -0.92200128684125604 0 -0.38718681158204199</Rotation>
+<Translation>0.19002030185426425 0.18005269146411032 0.21088720824139284</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Lock-6" uid="Tarot Hub Top Plate Clip Lock-6" entityUid="Tarot Hub Top Plate Clip Lock*:*Default">
+<Transform>
+<Rotation>0.37817094213251695 0 0.92573578224383457 0 1 0 -0.92573578224383457 0 0.37817094213251695</Rotation>
+<Translation>0.19003073695361197 0.18005269146411032 0.32170790097867136</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Screw-3" uid="Tarot Hub Top Plate Clip Screw-3" entityUid="Tarot Hub Top Plate Clip Screw*:*Default">
+<Transform>
+<Rotation>0.055928768511423477 0 -0.9984347614405239 0 1 0 0.9984347614405239 0 0.055928768511423477</Rotation>
+<Translation>-0.074937783911623673 0.18480269146411032 0.32065119828506028</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Screw-2" uid="Tarot Hub Top Plate Clip Screw-2" entityUid="Tarot Hub Top Plate Clip Screw*:*Default">
+<Transform>
+<Rotation>-0.66645237890912845 0 -0.7455476018648064 0 1 0 0.7455476018648064 0 -0.66645237890912845</Rotation>
+<Translation>-0.074937783911623979 0.18480269146411032 0.21196910349337453</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Screw-4" uid="Tarot Hub Top Plate Clip Screw-4" entityUid="Tarot Hub Top Plate Clip Screw*:*Default">
+<Transform>
+<Rotation>0.74554760186480862 0 -0.66645237890912579 0 1 0 0.66645237890912579 0 0.74554760186480862</Rotation>
+<Translation>0.0019120623091367778 0.18480269146411032 0.39750104450582008</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Screw-5" uid="Tarot Hub Top Plate Clip Screw-5" entityUid="Tarot Hub Top Plate Clip Screw*:*Default">
+<Transform>
+<Rotation>0.99843476144052368 0 0.055928768511426967 0 1 0 -0.055928768511426967 0 0.99843476144052368</Rotation>
+<Translation>0.11059415710082249 0.18480269146411032 0.39750104450581936</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Screw-7" uid="Tarot Hub Top Plate Clip Screw-7" entityUid="Tarot Hub Top Plate Clip Screw*:*Default">
+<Transform>
+<Rotation>-0.05592876851143045 0 0.99843476144052357 0 1 0 -0.99843476144052357 0 -0.05592876851143045</Rotation>
+<Translation>0.18744400332158095 0.18480269146411032 0.21196910349337295</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Screw-8" uid="Tarot Hub Top Plate Clip Screw-8" entityUid="Tarot Hub Top Plate Clip Screw*:*Default">
+<Transform>
+<Rotation>-0.74554760186481328 0 0.66645237890912057 0 1 0 -0.66645237890912057 0 -0.74554760186481328</Rotation>
+<Translation>0.11059415710081996 0.18480269146411032 0.1351192572726137</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Lock-8" uid="Tarot Hub Top Plate Clip Lock-8" entityUid="Tarot Hub Top Plate Clip Lock*:*Default">
+<Transform>
+<Rotation>-0.9257357822438359 0 0.37817094213251379 0 1 0 -0.37817094213251379 0 -0.9257357822438359</Rotation>
+<Translation>0.11165085979443262 0.18005269146411032 0.13253252364058371</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip Screw-6" uid="Tarot Hub Top Plate Clip Screw-6" entityUid="Tarot Hub Top Plate Clip Screw*:*Default">
+<Transform>
+<Rotation>0.66645237890912323 0 0.74554760186481095 0 1 0 -0.74554760186481095 0 0.66645237890912323</Rotation>
+<Translation>0.18744400332158201 0.18480269146411032 0.32065119828505873</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip-2" uid="Tarot Hub Top Plate Clip-2" entityUid="Tarot Hub Top Plate Clip*:*Default">
+<Transform>
+<Rotation>0.38197656275029462 0 0.92417201078017419 0 1 0 -0.92417201078017419 0 0.38197656275029462</Rotation>
+<Translation>-0.049985139620559255 0.19255269146411033 0.2222824706876326</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip-6" uid="Tarot Hub Top Plate Clip-6" entityUid="Tarot Hub Top Plate Clip*:*Default">
+<Transform>
+<Rotation>-0.38197656275028818 0 -0.92417201078017674 0 1 0 0.92417201078017674 0 -0.38197656275028818</Rotation>
+<Translation>0.1624913590305172 0.19255269146411033 0.31033783109080082</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Strut-2" uid="Tarot Hub Strut-2" entityUid="Tarot Hub Strut*:*Default">
+<Transform>
+<Rotation>0.96983903932912929 0 0.24374625698285474 0 1 0 -0.24374625698285474 0 0.96983903932912929</Rotation>
+<Translation>-0.017102925176417816 0.16555269146411034 0.23592508635943005</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Strut-5" uid="Tarot Hub Strut-5" entityUid="Tarot Hub Strut*:*Default">
+<Transform>
+<Rotation>-0.85813439257049207 0 0.51342513016765412 0 1 0 -0.51342513016765412 0 -0.85813439257049207</Rotation>
+<Translation>0.086638174234768467 0.16555269146411034 0.33966618577061258</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Strut-8" uid="Tarot Hub Strut-8" entityUid="Tarot Hub Strut*:*Default">
+<Transform>
+<Rotation>0.24374625698286473 0 -0.96983903932912663 0 1 0 0.96983903932912663 0 0.24374625698286473</Rotation>
+<Translation>0.086638174234765039 0.16555269146411034 0.19295411600782011</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip-5" uid="Tarot Hub Top Plate Clip-5" entityUid="Tarot Hub Top Plate Clip*:*Default">
+<Transform>
+<Rotation>-0.92358651358052835 0 -0.38339007803041092 0 1 0 0.38339007803041092 0 -0.92358651358052835</Rotation>
+<Translation>0.10024262499400144 0.19255269146411033 0.37256420863914497</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Strut-7" uid="Tarot Hub Strut-7" entityUid="Tarot Hub Strut*:*Default">
+<Transform>
+<Rotation>-0.51342513016765112 0 -0.85813439257049384 0 1 0 0.85813439257049384 0 -0.51342513016765112</Rotation>
+<Translation>0.12960914458637424 0.16555269146411034 0.23592508635942716</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Strut-4" uid="Tarot Hub Strut-4" entityUid="Tarot Hub Strut*:*Default">
+<Transform>
+<Rotation>-0.24374625698285801 0 0.96983903932912829 0 1 0 -0.96983903932912829 0 -0.24374625698285801</Rotation>
+<Translation>0.025868045175192089 0.16555269146411034 0.3396661857706138</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip-4" uid="Tarot Hub Top Plate Clip-4" entityUid="Tarot Hub Top Plate Clip*:*Default">
+<Transform>
+<Rotation>-0.92417201078017541 0 0.38197656275029135 0 1 0 -0.38197656275029135 0 -0.92417201078017541</Rotation>
+<Translation>0.012225429503394766 0.19255269146411033 0.37254840021475533</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip-8" uid="Tarot Hub Top Plate Clip-8" entityUid="Tarot Hub Top Plate Clip*:*Default">
+<Transform>
+<Rotation>0.92417201078017808 0 -0.38197656275028502 0 1 0 0.38197656275028502 0 0.92417201078017808</Rotation>
+<Translation>0.10028078990656215 0.19255269146411033 0.16007190156367854</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Strut-6" uid="Tarot Hub Strut-6" entityUid="Tarot Hub Strut*:*Default">
+<Transform>
+<Rotation>-0.96983903932912741 0 -0.2437462569828614 0 1 0 0.2437462569828614 0 -0.96983903932912741</Rotation>
+<Translation>0.12960914458637565 0.16555269146411034 0.29669521541900357</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Top Plate Clip-7" uid="Tarot Hub Top Plate Clip-7" entityUid="Tarot Hub Top Plate Clip*:*Default">
+<Transform>
+<Rotation>0.38339007803041414 0 -0.92358651358052701 0 1 0 0.92358651358052701 0 0.38339007803041414</Rotation>
+<Translation>0.16250716745490662 0.19255269146411033 0.22232063560019408</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Strut-3" uid="Tarot Hub Strut-3" entityUid="Tarot Hub Strut*:*Default">
+<Transform>
+<Rotation>0.51342513016765712 0 0.85813439257049029 0 1 0 -0.85813439257049029 0 0.51342513016765712</Rotation>
+<Translation>-0.017102925176416789 0.16555269146411034 0.29669521541900645</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear-1" uid="Tarot Landing Gear-1" entityUid="Tarot Landing Gear" rigid="true">
+<Transform>
+<Rotation>0 -1.1102230246251568e-16 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.0033673679800012546 0.08374458533696906 0.15733110136120299</Translation>
+</Transform>
+<Instance name="Tarot Landing Gear Hub Mount-1" uid="Tarot Landing Gear Hub Mount-1" grounded="true" entityUid="Tarot Landing Gear Hub Mount*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.010331098000734368 0.049933106127141288 0.058897340458124663</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Foot Endcap (RED)-1" uid="Tarot Landing Gear Foot Endcap (RED)-1" entityUid="Tarot Landing Gear Foot Endcap (RED)*:*Default">
+<Transform>
+<Rotation>0.79689389247220443 -0.60411929628219863 0 -0.60411929628219874 -0.79689389247220432 1.1102230246251565e-16 0 0 -0.99999999999999989</Rotation>
+<Translation>0.15436965341342512 -0.32472725236904459 0.25482234045812457</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Ankle Joint Nut-2" uid="Tarot Landing Gear Ankle Joint Nut-2" entityUid="Tarot Landing Gear Ankle Joint Nut*:*Default">
+<Transform>
+<Rotation>-0.29062202639336193 -0.94201120854974774 -0.1677907051706376 0.81580563725376776 -0.33558141034128186 0.47100560427486426 -0.49999999999999001 0 0.86602540378444448</Rotation>
+<Translation>0.16176307285574909 -0.31121245126248509 0.06114734045812336</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Mount Bolt-1" uid="Tarot Landing Gear Mount Bolt-1" entityUid="Tarot Landing Gear Mount Bolt*:*Default">
+<Transform>
+<Rotation>0.95145078455950249 0.30780091708945106 0 -0.30780091708945106 0.95145078455950249 0 0 -1.0563225678156293e-16 1</Rotation>
+<Translation>0.026616631906667104 0.045808106127141243 0.058897340458124663</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Ankle Joint Bottom Screw-1" uid="Tarot Landing Gear Ankle Joint Bottom Screw-1" entityUid="Tarot Landing Gear Ankle Joint Bottom Screw*:*Default">
+<Transform>
+<Rotation>0.28973430670372874 -0.94201120854974763 -0.16931897260954987 -0.81331371764226545 -0.33558141034128197 0.47529560667891019 -0.50455408849183514 -1.9255784588784282e-16 -0.86338008535416966</Rotation>
+<Translation>0.13774178703773063 -0.31976977722618782 0.061147340458123367</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Foot-1" uid="Tarot Landing Gear Foot-1" entityUid="Tarot Landing Gear Foot*:*Default">
+<Transform>
+<Rotation>-0.73566415964389742 0.67734647280061788 0 0.67734647280061788 0.73566415964389742 2.0411172966947661e-16 0 0 -1</Rotation>
+<Translation>0.15436965341342512 -0.32472725236904448 0.063159840458124492</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Ankle Joint-1" uid="Tarot Landing Gear Ankle Joint-1" entityUid="Tarot Landing Gear Ankle Joint*:*Default">
+<Transform>
+<Rotation>0 -0.33558141034128158 0.94201120854974774 1.9936962899105868e-16 0.94201120854974774 0.33558141034128158 -1 0 0</Rotation>
+<Translation>0.14262430405148024 -0.29175686006980345 0.061147340458124637</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Foot Endcap (BLACK)-1" uid="Tarot Landing Gear Foot Endcap (BLACK)-1" entityUid="Tarot Landing Gear Foot Endcap (BLACK)*:*Default">
+<Transform>
+<Rotation>-0.4689818598842026 0.88320779836885177 0 -0.88320779836885166 -0.46898185988420271 -1.1102230246251568e-16 0 0 1</Rotation>
+<Translation>0.15436965341342515 -0.32472725236904448 -0.12850265954187554</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Leg Mount-1" uid="Tarot Landing Gear Leg Mount-1" entityUid="Tarot Landing Gear Leg Mount*:*Default">
+<Transform>
+<Rotation>-0.33558141034128158 0.94201120854974774 0 0.94201120854974774 0.33558141034128158 1.110221295600688e-16 -1.0458420445461237e-16 0 -0.99999999999999978</Rotation>
+<Translation>0.041641146051579925 -0.0082868471930098303 0.061147340458124665</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Ankle Joint Nut-1" uid="Tarot Landing Gear Ankle Joint Nut-1" entityUid="Tarot Landing Gear Ankle Joint Nut*:*Default">
+<Transform>
+<Rotation>-0.29062202639336177 -0.94201120854974763 -0.16779070517063788 0.81580563725376709 -0.33558141034128186 0.47100560427486515 -0.49999999999999101 0 0.8660254037844437</Rotation>
+<Translation>0.1573477459234881 -0.29136842160414056 0.061147340458124637</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Ankle Joint Top Screw-1" uid="Tarot Landing Gear Ankle Joint Top Screw-1" entityUid="Tarot Landing Gear Ankle Joint Top Screw*:*Default">
+<Transform>
+<Rotation>0.016901141082735036 -0.94201120854974785 0.33515553761909583 -0.047443224942125564 -0.33558141034128169 -0.94081574042978655 0.99873094066279555 0 -0.050363758426150207</Rotation>
+<Translation>0.12861640406272085 -0.30160365461954958 0.061147340458124637</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Leg-1" uid="Tarot Landing Gear Leg-1" entityUid="Tarot Landing Gear Leg*:*Default">
+<Transform>
+<Rotation>0.94201120854974774 -0.33558141034128158 0 0.33558141034128158 0.94201120854974774 -1.4067660349644055e-16 0 0 0.99999999999999978</Rotation>
+<Translation>0.031070331625827952 0.021386505876308554 0.061147340458124554</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Arm-2" uid="Tarot Arm-2" entityUid="Tarot Arm">
+<Transform>
+<Rotation>0.92387953251128674 -0.030276497621991718 -0.38148387003708517 -9.0032148403196288e-16 -0.99686539257633699 0.079116300998121961 -0.38268343236508956 -0.073093931180166827 -0.92098353287010659</Rotation>
+<Translation>-0.13517190588135619 0.36589617731510238 0.26036285715168539</Translation>
+</Transform>
+<Instance name="Tarot Main Arm-1" uid="Tarot Main Arm-1" grounded="true" entityUid="Tarot Main Arm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.17445272313010707 0.20282703684068021 0.23279228659346113</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot 1555 folding-1" uid="Tarot 1555 folding-1" entityUid="Tarot 1555 folding" rigid="true">
+<Transform>
+<Rotation>0.75850556224292198 -3.8510861166685117e-16 0.65166656508259546 -1.2490009027033011e-16 -1 -4.7184478546569153e-16 0.65166656508259535 2.7755575615628914e-16 -0.7585055622429222</Rotation>
+<Translation>0.13603628937507656 0.14774696520802844 0.48182254708953748</Translation>
+</Transform>
+<Instance name="Prop-2" uid="Prop-2" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>0.024130113701715417 0 -0.99970882641534309 0 1 0 0.99970882641534331 0 0.024130113701715472</Rotation>
+<Translation>-0.024901193325329835 0.00016992836734852634 0.060000000000000081</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-3" uid="socket head cap screw_iso-3" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1.0000000000000002</Rotation>
+<Translation>0.023098806674670153 0.0081699283673484779 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_bot-1" uid="Center_bot-1" grounded="true" entityUid="Center_bot*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325329835 -0.005830071632651479 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop-1" uid="Prop-1" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>-0.020202040938429811 0 0.9997959179462188 0 1 0 -0.99979591794621891 0 -0.020202040938429866</Rotation>
+<Translation>0.02309880667467018 0.00016992836734847083 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_top-1" uid="Center_top-1" entityUid="Center_top*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325329848 0.0021699283673485281 0.060000000000000026</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-2" uid="socket head cap screw_iso-2" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1.0000000000000002</Rotation>
+<Translation>-0.024901193325329848 0.0081699283673485057 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Motor Mount-1" uid="Tarot Motor Mount-1" entityUid="Tarot Motor Mount" rigid="true">
+<Transform>
+<Rotation>0.99999999999999989 1.457167719820518e-16 0 1.457167719820518e-16 -0.99999999999999989 4.9960036108132034e-16 0 -4.9960036108132044e-16 -0.99999999999999978</Rotation>
+<Translation>0.1376338399336941 0.25524127788283052 0.49850919953871575</Translation>
+</Transform>
+<Instance name="Tarot Motor Mount Base-1" uid="Tarot Motor Mount Base-1" grounded="true" entityUid="Tarot Motor Mount Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.036818883196412938 0.052414241042150492 0.083466912945254657</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-1" uid="Tarot Motor Mount Bottom Dampener-1" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.9238795325112914 0 0.3826834323650789 0 1 0 -0.38268343236507851 0 0.92387953251129162</Rotation>
+<Translation>0.05456888319641294 0.058414241042150497 0.087784263742546054</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-2" uid="Tarot Motor Mount Bottom Dampener-2" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128241 0 -0.38268343236509988 0 1 0 0.38268343236510016 0 0.9238795325112823</Rotation>
+<Translation>0.019068883196412909 0.058414241042150469 0.087784263742545943</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-3" uid="Tarot Motor Mount Bottom Dampener-3" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.38268343236510077 0 1 0 0.38268343236510077 0 0.92387953251128208</Rotation>
+<Translation>0.054568883196412871 0.058414241042150497 0.034784263742546062</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-2" uid="Tarot Motor Mount Top Dampener-2" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.38268343236510083 0 1 0 0.38268343236510116 0 0.92387953251128185</Rotation>
+<Translation>0.019068883196413228 0.062789241042150487 0.087784263742546165</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-3" uid="Tarot Motor Mount Screw-3" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196413228 0.065164241042150475 0.08778426374254622</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-1" uid="Tarot Motor Mount Top Dampener-1" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128185 0 -0.382683432365101 0 1 0 0.38268343236510122 0 0.92387953251128185</Rotation>
+<Translation>0.054568883196413245 0.062789241042150459 0.087784263742545998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-3" uid="Tarot Motor Mount Top Dampener-3" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.9238795325112914 0 0.38268343236507896 0 1 0 -0.38268343236507896 0 0.9238795325112914</Rotation>
+<Translation>0.019068883196412881 0.062789241042150459 0.034784263742546229</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-1" uid="Tarot Motor Mount Screw-1" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196412898 0.065164241042150475 0.034784263742546062</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-4" uid="Tarot Motor Mount Screw-4" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196413218 0.065164241042150448 0.087784263742545998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-5" uid="Tarot Motor Mount Screw-5" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196412922 0.065164241042150475 0.034784263742546173</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Plate-1" uid="Tarot Motor Mount Top Plate-1" entityUid="Tarot Motor Mount Top Plate*:*Default">
+<Transform>
+<Rotation>-6.1617377866696204e-15 0 1 0 1 0 -1 0 -6.1617377866696204e-15</Rotation>
+<Translation>0.036818883196413243 0.060414241042150499 0.089534263742546111</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-4" uid="Tarot Motor Mount Top Dampener-4" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.9238795325112914 0 0.38268343236507896 0 1 0 -0.38268343236507896 0 0.9238795325112914</Rotation>
+<Translation>0.054568883196412885 0.062789241042150487 0.034784263742546062</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-4" uid="Tarot Motor Mount Bottom Dampener-4" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>-0.38268343236510055 0 -0.9238795325112823 0 1 0 0.9238795325112823 0 -0.38268343236510055</Rotation>
+<Translation>0.019068883196412909 0.058414241042150497 0.034784263742546062</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor-1" uid="Tarot Sunny Sky Motor-1" entityUid="Tarot Sunny Sky Motor">
+<Transform>
+<Rotation>-0.83716910433122216 0 -0.54694413860398883 0 -0.99999999999999989 0 -0.54694413860398861 0 0.83716910433122227</Rotation>
+<Translation>0.21149384795933954 0.21454167046505815 0.42064106611633295</Translation>
+</Transform>
+<Instance name="Tarot Sunny Sky Motor Top-1" uid="Tarot Sunny Sky Motor Top-1" entityUid="Tarot Sunny Sky Motor Top*:*Default">
+<Transform>
+<Rotation>-0.31138145472130629 -1.1138124764554966e-16 0.95028500443584973 0 1 1.0356618269089064e-16 -0.95028500443584973 0 -0.31138145472130629</Rotation>
+<Translation>0.022759651187850477 0.02671463362437751 0.032887175782363387</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor Bottom-1" uid="Tarot Sunny Sky Motor Bottom-1" grounded="true" entityUid="Tarot Sunny Sky Motor Bottom*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.022759651187856444 0.026714633624377981 0.032887175782364997</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Tarot Hub Bottom Plate-1" uid="Tarot Hub Bottom Plate-1" entityUid="Tarot Hub Bottom Plate*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.056279972478123406 0.14780269146411035 0.2663750033604686</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-3" uid="Tarot Hub Arm Mount-3" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>-0.38268343236508751 0 -0.92387953251128785 0 -1 0 -0.92387953251128785 0 0.38268343236508751</Rotation>
+<Translation>-0.013600926939506597 0.16555269146411034 0.12445212901556173</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-11" uid="Tarot Hub Arm Mount-11" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>-0.38268343236509134 0 -0.92387953251128629 0 -1 0 -0.92387953251128629 0 0.38268343236509134</Rotation>
+<Translation>0.0053386034769747626 0.16555269146411034 0.11660711865207739</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-8" uid="Tarot Hub Arm Mount-8" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>0.92387953251128918 0 0.38268343236508406 0 -1 0 0.38268343236508406 0 -0.92387953251128918</Rotation>
+<Translation>0.20595614194211975 0.16555269146411034 0.31722465711721781</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-10" uid="Tarot Hub Arm Mount-10" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>0.3826834323650809 0 -0.92387953251129051 0 -1 0 -0.92387953251129051 0 -0.3826834323650809</Rotation>
+<Translation>0.10716761593297904 0.16555269146411034 0.11660711865207596</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Arm-7" uid="Tarot Arm-7" entityUid="Tarot Arm">
+<Transform>
+<Rotation>-0.38268343236508184 0.07309393118016777 0.9209835328701097 -9.0032148403196288e-16 -0.99686539257633699 0.079116300998121961 0.92387953251128996 0.030276497621989428 0.3814838700370774</Rotation>
+<Translation>0.19581640804633266 0.36589617731510238 0.13515759601089472</Translation>
+</Transform>
+<Instance name="Tarot 1555 folding-1" uid="Tarot 1555 folding-1" entityUid="Tarot 1555 folding" rigid="true">
+<Transform>
+<Rotation>0.7585055622429222 -4.0592529337857286e-16 0.65166656508259535 -1.3877787807814457e-16 -1 -4.6837533851373792e-16 0.65166656508259524 2.8449465006019636e-16 -0.7585055622429222</Rotation>
+<Translation>0.13603628937507656 0.14774696520802841 0.48182254708953731</Translation>
+</Transform>
+<Instance name="Prop-2" uid="Prop-2" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>0.024130113701715361 0 -0.99970882641534298 0 1 0 0.99970882641534287 0 0.024130113701715417</Rotation>
+<Translation>-0.024901193325329918 0.00016992836734852634 0.059999999999999942</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-3" uid="socket head cap screw_iso-3" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 1.0000000000000002 0 -1 0 0 0 0 1.0000000000000002</Rotation>
+<Translation>0.023098806674670014 0.0081699283673485057 0.059999999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_bot-1" uid="Center_bot-1" grounded="true" entityUid="Center_bot*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325330029 -0.005830071632651479 0.059999999999999887</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop-1" uid="Prop-1" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>-0.020202040938429866 0 0.99979591794621891 0 1 0 -0.9997959179462188 0 -0.020202040938429866</Rotation>
+<Translation>0.023098806674670014 0.00016992836734847083 0.059999999999999942</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_top-1" uid="Center_top-1" entityUid="Center_top*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325329918 0.0021699283673485281 0.059999999999999942</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-2" uid="socket head cap screw_iso-2" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 1.0000000000000002 0 -1 0 0 0 0 1.0000000000000002</Rotation>
+<Translation>-0.024901193325329918 0.0081699283673485057 0.059999999999999942</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Motor Mount-1" uid="Tarot Motor Mount-1" entityUid="Tarot Motor Mount" rigid="true">
+<Transform>
+<Rotation>0.99999999999999989 1.5265566588595907e-16 0 1.5265566588595902e-16 -1 4.891920202254595e-16 0 -4.891920202254596e-16 -0.99999999999999989</Rotation>
+<Translation>0.13763383993369416 0.25524127788283058 0.49850919953871564</Translation>
+</Transform>
+<Instance name="Tarot Motor Mount Base-1" uid="Tarot Motor Mount Base-1" grounded="true" entityUid="Tarot Motor Mount Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.036818883196412938 0.052414241042150464 0.083466912945254546</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-1" uid="Tarot Motor Mount Bottom Dampener-1" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251129129 0 0.38268343236507868 0 1 0 -0.38268343236507851 0 0.92387953251129129</Rotation>
+<Translation>0.054568883196412898 0.058414241042150469 0.087784263742545887</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-2" uid="Tarot Motor Mount Bottom Dampener-2" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128241 0 -0.38268343236510011 0 1 0 0.38268343236510011 0 0.92387953251128241</Rotation>
+<Translation>0.019068883196412867 0.058414241042150469 0.087784263742545776</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-3" uid="Tarot Motor Mount Bottom Dampener-3" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.9238795325112823 0 -0.38268343236510066 0 1 0 0.38268343236510066 0 0.9238795325112823</Rotation>
+<Translation>0.054568883196412898 0.058414241042150469 0.034784263742545951</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-2" uid="Tarot Motor Mount Top Dampener-2" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.38268343236510083 0 1 0 0.38268343236510094 0 0.92387953251128185</Rotation>
+<Translation>0.019068883196413228 0.062789241042150459 0.08778426374254622</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-3" uid="Tarot Motor Mount Screw-3" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196413228 0.065164241042150475 0.087784263742546109</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-1" uid="Tarot Motor Mount Top Dampener-1" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.38268343236510122 0 1 0 0.38268343236510122 0 0.92387953251128208</Rotation>
+<Translation>0.054568883196413231 0.062789241042150459 0.087784263742545887</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-3" uid="Tarot Motor Mount Top Dampener-3" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251129129 0 0.38268343236507918 0 1 0 -0.38268343236507918 0 0.92387953251129129</Rotation>
+<Translation>0.01906888319641295 0.062789241042150459 0.034784263742546173</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-1" uid="Tarot Motor Mount Screw-1" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196412898 0.065164241042150475 0.034784263742546062</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-4" uid="Tarot Motor Mount Screw-4" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196413231 0.065164241042150448 0.087784263742545998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-5" uid="Tarot Motor Mount Screw-5" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196412895 0.06516424104215042 0.034784263742546173</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Plate-1" uid="Tarot Motor Mount Top Plate-1" entityUid="Tarot Motor Mount Top Plate*:*Default">
+<Transform>
+<Rotation>-6.0507154842071055e-15 0 1 0 1 0 -1 0 -6.0507154842071055e-15</Rotation>
+<Translation>0.036818883196413188 0.060414241042150443 0.089534263742545916</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-4" uid="Tarot Motor Mount Top Dampener-4" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251129129 0 0.38268343236507912 0 1 0 -0.38268343236507912 0 0.92387953251129129</Rotation>
+<Translation>0.054568883196412898 0.062789241042150432 0.034784263742545951</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-4" uid="Tarot Motor Mount Bottom Dampener-4" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>-0.38268343236510055 0 -0.92387953251128252 0 1 0 0.9238795325112823 0 -0.38268343236510066</Rotation>
+<Translation>0.019068883196412839 0.058414241042150469 0.034784263742546062</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor-1" uid="Tarot Sunny Sky Motor-1" entityUid="Tarot Sunny Sky Motor">
+<Transform>
+<Rotation>-0.83716910433122238 0 -0.54694413860398849 0 -0.99999999999999989 0 -0.54694413860398861 0 0.83716910433122227</Rotation>
+<Translation>0.21149384795933962 0.21454167046505815 0.42064106611633278</Translation>
+</Transform>
+<Instance name="Tarot Sunny Sky Motor Bottom-1" uid="Tarot Sunny Sky Motor Bottom-1" grounded="true" entityUid="Tarot Sunny Sky Motor Bottom*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.022759651187856389 0.026714633624377981 0.032887175782364997</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor Top-1" uid="Tarot Sunny Sky Motor Top-1" entityUid="Tarot Sunny Sky Motor Top*:*Default">
+<Transform>
+<Rotation>0.20250216642962668 0 0.97928181469447684 0 0.99999999999999989 0 -0.97928181469447684 0 0.20250216642962687</Rotation>
+<Translation>0.022759651188323127 0.026714633624400214 0.032887175782412126</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Main Arm-1" uid="Tarot Main Arm-1" grounded="true" entityUid="Tarot Main Arm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.17445272313010704 0.20282703684068018 0.23279228659346102</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-18" uid="Tarot Hub Arm Mount-18" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>0.38268343236507707 0 -0.92387953251129207 0 -1 0 -0.92387953251129207 0 -0.38268343236507707</Rotation>
+<Translation>0.12610714634946049 0.16555269146411034 0.12445212901556006</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-4" uid="Tarot Hub Arm Mount-4" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>-0.92387953251128663 0 -0.38268343236509056 0 -1 0 -0.38268343236509056 0 0.92387953251128663</Rotation>
+<Translation>-0.09344992253216175 0.16555269146411034 0.21539564466121525</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Arm-8" uid="Tarot Arm-8" entityUid="Tarot Arm">
+<Transform>
+<Rotation>0.38268343236509922 0.073093931180166508 0.92098353287010259 -9.0032148403196288e-16 -0.99686539257633699 0.079116300998121961 0.92387953251128274 -0.030276497621992485 -0.38148387003709483</Rotation>
+<Translation>0.062200403442508434 0.36589617731510238 0.074885135302881989</Translation>
+</Transform>
+<Instance name="Tarot Motor Mount-1" uid="Tarot Motor Mount-1" entityUid="Tarot Motor Mount" rigid="true">
+<Transform>
+<Rotation>1 1.4224732503009818e-16 0 1.4224732503009821e-16 -0.99999999999999989 5.0480453150925086e-16 0 -5.0480453150925086e-16 -0.99999999999999989</Rotation>
+<Translation>0.13763383993369413 0.25524127788283052 0.4985091995387157</Translation>
+</Transform>
+<Instance name="Tarot Motor Mount Base-1" uid="Tarot Motor Mount Base-1" grounded="true" entityUid="Tarot Motor Mount Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03681888319641291 0.052414241042150478 0.083466912945254601</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-1" uid="Tarot Motor Mount Bottom Dampener-1" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.9238795325112914 0 0.38268343236507846 0 0.99999999999999989 0 -0.38268343236507851 0 0.92387953251129129</Rotation>
+<Translation>0.054568883196412898 0.058414241042150483 0.087784263742545998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-2" uid="Tarot Motor Mount Bottom Dampener-2" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128241 0 -0.38268343236510011 0 0.99999999999999989 0 0.38268343236510016 0 0.9238795325112823</Rotation>
+<Translation>0.019068883196412922 0.058414241042150483 0.087784263742545887</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-3" uid="Tarot Motor Mount Bottom Dampener-3" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.38268343236510077 0 0.99999999999999989 0 0.38268343236510083 0 0.92387953251128196</Rotation>
+<Translation>0.054568883196412898 0.058414241042150483 0.034784263742546062</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-2" uid="Tarot Motor Mount Top Dampener-2" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.38268343236510111 0 0.99999999999999989 0 0.38268343236510116 0 0.92387953251128196</Rotation>
+<Translation>0.019068883196413255 0.062789241042150473 0.087784263742546109</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-3" uid="Tarot Motor Mount Screw-3" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196413255 0.065164241042150461 0.08778426374254622</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-1" uid="Tarot Motor Mount Top Dampener-1" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.382683432365101 0 0.99999999999999989 0 0.38268343236510127 0 0.92387953251128185</Rotation>
+<Translation>0.054568883196413231 0.062789241042150473 0.087784263742546109</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-3" uid="Tarot Motor Mount Top Dampener-3" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251129129 0 0.38268343236507896 0 0.99999999999999989 0 -0.38268343236507901 0 0.92387953251129118</Rotation>
+<Translation>0.019068883196412922 0.062789241042150445 0.034784263742546173</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-1" uid="Tarot Motor Mount Screw-1" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196412898 0.065164241042150489 0.034784263742546062</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-4" uid="Tarot Motor Mount Screw-4" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196413231 0.065164241042150434 0.087784263742545998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-5" uid="Tarot Motor Mount Screw-5" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196412895 0.065164241042150461 0.034784263742546284</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Plate-1" uid="Tarot Motor Mount Top Plate-1" entityUid="Tarot Motor Mount Top Plate*:*Default">
+<Transform>
+<Rotation>-6.2172489379008782e-15 0 0.99999999999999989 0 0.99999999999999989 0 -1 0 -6.2172489379008774e-15</Rotation>
+<Translation>0.036818883196413243 0.060414241042150457 0.089534263742546139</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-4" uid="Tarot Motor Mount Top Dampener-4" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.9238795325112914 0 0.3826834323650789 0 0.99999999999999989 0 -0.38268343236507896 0 0.92387953251129129</Rotation>
+<Translation>0.054568883196412898 0.062789241042150445 0.034784263742545951</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-4" uid="Tarot Motor Mount Bottom Dampener-4" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>-0.3826834323651005 0 -0.9238795325112823 0 0.99999999999999989 0 0.92387953251128241 0 -0.38268343236510044</Rotation>
+<Translation>0.019068883196412922 0.058414241042150483 0.034784263742545951</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot 1555 folding-1" uid="Tarot 1555 folding-1" entityUid="Tarot 1555 folding" rigid="true">
+<Transform>
+<Rotation>0.75850556224292198 -3.8510861166685117e-16 0.65166656508259546 -1.231653667943533e-16 -1 -4.649058915617843e-16 0.65166656508259535 2.7755575615628914e-16 -0.7585055622429222</Rotation>
+<Translation>0.13603628937507647 0.14774696520802838 0.48182254708953726</Translation>
+</Transform>
+<Instance name="Prop-2" uid="Prop-2" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>0.024130113701715472 0 -0.99970882641534298 0 1.0000000000000002 0 0.99970882641534309 0 0.024130113701715417</Rotation>
+<Translation>-0.024901193325329696 0.00016992836734849859 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-3" uid="socket head cap screw_iso-3" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 0.99999999999999989 0 -1.0000000000000002 0 0 0 0 1</Rotation>
+<Translation>0.023098806674670236 0.0081699283673484502 0.060000000000000026</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_bot-1" uid="Center_bot-1" grounded="true" entityUid="Center_bot*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325329696 -0.005830071632651479 0.059999999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop-1" uid="Prop-1" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>-0.020202040938429866 0 0.99979591794621858 0 1.0000000000000002 0 -0.99979591794621869 0 -0.020202040938429811</Rotation>
+<Translation>0.023098806674670236 0.00016992836734844308 0.060000000000000026</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_top-1" uid="Center_top-1" entityUid="Center_top*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325329807 0.0021699283673485004 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-2" uid="socket head cap screw_iso-2" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 0.99999999999999989 0 -1.0000000000000002 0 0 0 0 1</Rotation>
+<Translation>-0.024901193325329807 0.0081699283673485057 0.060000000000000081</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor-1" uid="Tarot Sunny Sky Motor-1" entityUid="Tarot Sunny Sky Motor">
+<Transform>
+<Rotation>-0.83716910433122216 0 -0.54694413860398861 0 -0.99999999999999989 0 -0.54694413860398861 0 0.83716910433122238</Rotation>
+<Translation>0.21149384795933954 0.21454167046505812 0.4206410661163329</Translation>
+</Transform>
+<Instance name="Tarot Sunny Sky Motor Top-1" uid="Tarot Sunny Sky Motor Top-1" entityUid="Tarot Sunny Sky Motor Top*:*Default">
+<Transform>
+<Rotation>0.20250216642962682 0 0.97928181469447684 0 0.99999999999999989 0 -0.97928181469447706 0 0.20250216642962682</Rotation>
+<Translation>0.022759651188414276 0.026714633624400214 0.032887175782197658</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor Bottom-1" uid="Tarot Sunny Sky Motor Bottom-1" grounded="true" entityUid="Tarot Sunny Sky Motor Bottom*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.022759651187856444 0.026714633624377954 0.032887175782364969</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Main Arm-1" uid="Tarot Main Arm-1" grounded="true" entityUid="Tarot Main Arm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.17445272313010704 0.20282703684068018 0.23279228659346107</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Arm-9" uid="Tarot Arm-9" entityUid="Tarot Arm">
+<Transform>
+<Rotation>0.92387953251129118 0.030276497621989171 0.38148387003707424 -9.0032148403196288e-16 -0.99686539257633699 0.079116300998121961 0.38268343236507868 -0.073093931180167881 -0.92098353287011114</Rotation>
+<Translation>-0.074899445173344015 0.36589617731510238 0.12674685254786369</Translation>
+</Transform>
+<Instance name="Tarot Motor Mount-1" uid="Tarot Motor Mount-1" entityUid="Tarot Motor Mount" rigid="true">
+<Transform>
+<Rotation>1 1.3877787807814457e-16 0 1.3877787807814462e-16 -0.99999999999999989 4.9960036108132044e-16 0 -4.9960036108132044e-16 -0.99999999999999989</Rotation>
+<Translation>0.13763383993369405 0.25524127788283052 0.49850919953871575</Translation>
+</Transform>
+<Instance name="Tarot Motor Mount Base-1" uid="Tarot Motor Mount Base-1" grounded="true" entityUid="Tarot Motor Mount Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03681888319641291 0.052414241042150478 0.083466912945254657</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-1" uid="Tarot Motor Mount Bottom Dampener-1" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251129129 0 0.3826834323650784 0 0.99999999999999989 0 -0.38268343236507846 0 0.92387953251129118</Rotation>
+<Translation>0.054568883196412871 0.058414241042150483 0.087784263742545998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-2" uid="Tarot Motor Mount Bottom Dampener-2" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128241 0 -0.38268343236510033 0 0.99999999999999989 0 0.38268343236510038 0 0.9238795325112823</Rotation>
+<Translation>0.019068883196412922 0.058414241042150483 0.087784263742545943</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-3" uid="Tarot Motor Mount Bottom Dampener-3" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.9238795325112823 0 -0.38268343236510088 0 0.99999999999999989 0 0.38268343236510094 0 0.92387953251128219</Rotation>
+<Translation>0.054568883196412898 0.058414241042150483 0.034784263742546062</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-2" uid="Tarot Motor Mount Top Dampener-2" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128185 0 -0.38268343236510116 0 0.99999999999999989 0 0.38268343236510122 0 0.92387953251128174</Rotation>
+<Translation>0.019068883196413255 0.062789241042150473 0.087784263742546165</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-3" uid="Tarot Motor Mount Screw-3" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196413255 0.065164241042150461 0.087784263742546165</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-1" uid="Tarot Motor Mount Top Dampener-1" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.38268343236510138 0 0.99999999999999989 0 0.38268343236510144 0 0.92387953251128196</Rotation>
+<Translation>0.054568883196413204 0.062789241042150445 0.087784263742545998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-3" uid="Tarot Motor Mount Top Dampener-3" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251129129 0 0.38268343236507907 0 0.99999999999999989 0 -0.38268343236507912 0 0.92387953251129118</Rotation>
+<Translation>0.019068883196412922 0.062789241042150473 0.034784263742546229</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-1" uid="Tarot Motor Mount Screw-1" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196412926 0.065164241042150489 0.034784263742546007</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-4" uid="Tarot Motor Mount Screw-4" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196413231 0.065164241042150461 0.087784263742545998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-5" uid="Tarot Motor Mount Screw-5" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196412922 0.065164241042150461 0.034784263742546173</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Plate-1" uid="Tarot Motor Mount Top Plate-1" entityUid="Tarot Motor Mount Top Plate*:*Default">
+<Transform>
+<Rotation>-6.1617377866696188e-15 0 0.99999999999999978 0 0.99999999999999989 0 -0.99999999999999989 0 -6.161737786669618e-15</Rotation>
+<Translation>0.036818883196413243 0.060414241042150485 0.089534263742546139</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-4" uid="Tarot Motor Mount Top Dampener-4" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251129129 0 0.38268343236507896 0 0.99999999999999989 0 -0.38268343236507901 0 0.92387953251129118</Rotation>
+<Translation>0.054568883196412898 0.062789241042150445 0.034784263742546062</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-4" uid="Tarot Motor Mount Bottom Dampener-4" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>-0.38268343236510044 0 -0.92387953251128241 0 0.99999999999999989 0 0.92387953251128252 0 -0.38268343236510038</Rotation>
+<Translation>0.019068883196412867 0.058414241042150483 0.034784263742546007</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor-1" uid="Tarot Sunny Sky Motor-1" entityUid="Tarot Sunny Sky Motor">
+<Transform>
+<Rotation>-0.83716910433122227 0 -0.54694413860398861 0 -1 0 -0.54694413860398861 0 0.83716910433122227</Rotation>
+<Translation>0.21149384795933948 0.21454167046505812 0.42064106611633301</Translation>
+</Transform>
+<Instance name="Tarot Sunny Sky Motor Bottom-1" uid="Tarot Sunny Sky Motor Bottom-1" grounded="true" entityUid="Tarot Sunny Sky Motor Bottom*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.022759651187856444 0.026714633624377981 0.032887175782364969</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor Top-1" uid="Tarot Sunny Sky Motor Top-1" entityUid="Tarot Sunny Sky Motor Top*:*Default">
+<Transform>
+<Rotation>-0.72686042298294307 -2.5395996266282478e-16 0.68678521060158038 -1.457167719820518e-16 1 2.1556114758872603e-16 -0.68678521060158038 0 -0.72686042298294307</Rotation>
+<Translation>0.022759651183179352 0.026714633624673134 0.032887175771507904</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot 1555 folding-1" uid="Tarot 1555 folding-1" entityUid="Tarot 1555 folding" rigid="true">
+<Transform>
+<Rotation>0.75850556224292209 -3.8510861166685117e-16 0.65166656508259546 -1.2836953722228372e-16 -1 -4.7184478546569153e-16 0.65166656508259535 2.7755575615628914e-16 -0.7585055622429222</Rotation>
+<Translation>0.13603628937507653 0.14774696520802841 0.48182254708953753</Translation>
+</Transform>
+<Instance name="Prop-2" uid="Prop-2" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>0.024130113701715361 0 -0.99970882641534309 0 1 0 0.99970882641534309 0 0.024130113701715472</Rotation>
+<Translation>-0.024901193325329862 0.00016992836734849859 0.060000000000000081</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-3" uid="socket head cap screw_iso-3" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>0.023098806674670069 0.0081699283673485057 0.060000000000000026</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_bot-1" uid="Center_bot-1" grounded="true" entityUid="Center_bot*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325329918 -0.005830071632651479 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop-1" uid="Prop-1" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>-0.020202040938429804 0 0.99979591794621869 0 1 0 -0.99979591794621869 0 -0.020202040938429804</Rotation>
+<Translation>0.023098806674670125 0.00016992836734844308 0.059999999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_top-1" uid="Center_top-1" entityUid="Center_top*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325329862 0.0021699283673485004 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-2" uid="socket head cap screw_iso-2" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>-0.024901193325329918 0.0081699283673484779 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Main Arm-1" uid="Tarot Main Arm-1" grounded="true" entityUid="Tarot Main Arm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.17445272313010701 0.20282703684068018 0.2327922865934611</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-12" uid="Tarot Hub Arm Mount-12" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>-0.92387953251128829 0 -0.38268343236508678 0 -1 0 -0.38268343236508678 0 0.92387953251128829</Rotation>
+<Translation>-0.085604912168677466 0.16555269146411034 0.19645611424473386</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear-2" uid="Tarot Landing Gear-2" entityUid="Tarot Landing Gear" rigid="true">
+<Transform>
+<Rotation>6.9829626776862667e-15 1.1102230246251568e-16 -1 0 1 0 1 0 6.9829626776862667e-15</Rotation>
+<Translation>0.11587358738995966 0.08374458533696906 0.37528920041723068</Translation>
+</Transform>
+<Instance name="Tarot Landing Gear Hub Mount-1" uid="Tarot Landing Gear Hub Mount-1" grounded="true" entityUid="Tarot Landing Gear Hub Mount*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.01033109800073434 0.049933106127141275 0.058897340458124663</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Foot Endcap (RED)-1" uid="Tarot Landing Gear Foot Endcap (RED)-1" entityUid="Tarot Landing Gear Foot Endcap (RED)*:*Default">
+<Transform>
+<Rotation>0.79689389247220443 -0.60411929628219863 0 -0.60411929628219874 -0.79689389247220432 1.1102230246251565e-16 0 0 -0.99999999999999989</Rotation>
+<Translation>0.15436965341342507 -0.32472725236904459 0.25482234045812452</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Ankle Joint Nut-2" uid="Tarot Landing Gear Ankle Joint Nut-2" entityUid="Tarot Landing Gear Ankle Joint Nut*:*Default">
+<Transform>
+<Rotation>-0.29062202639336193 -0.94201120854974774 -0.1677907051706376 0.81580563725376776 -0.33558141034128186 0.47100560427486426 -0.49999999999999001 0 0.86602540378444437</Rotation>
+<Translation>0.16176307285574903 -0.31121245126248509 0.061147340458123353</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Mount Bolt-1" uid="Tarot Landing Gear Mount Bolt-1" entityUid="Tarot Landing Gear Mount Bolt*:*Default">
+<Transform>
+<Rotation>0.95145078455950249 0.30780091708945106 0 -0.30780091708945106 0.95145078455950249 0 0 -1.0563225678156277e-16 1</Rotation>
+<Translation>0.026616631906667076 0.045808106127141229 0.058897340458124656</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Ankle Joint Bottom Screw-1" uid="Tarot Landing Gear Ankle Joint Bottom Screw-1" entityUid="Tarot Landing Gear Ankle Joint Bottom Screw*:*Default">
+<Transform>
+<Rotation>0.28973430670372874 -0.94201120854974763 -0.16931897260954987 -0.81331371764226545 -0.33558141034128197 0.47529560667891019 -0.50455408849183514 -1.9255784588784294e-16 -0.86338008535416977</Rotation>
+<Translation>0.13774178703773049 -0.31976977722618782 0.06114734045812336</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Foot-1" uid="Tarot Landing Gear Foot-1" entityUid="Tarot Landing Gear Foot*:*Default">
+<Transform>
+<Rotation>-0.73566415964389742 0.67734647280061788 0 0.67734647280061788 0.73566415964389742 2.0411172966947661e-16 0 0 -1</Rotation>
+<Translation>0.15436965341342507 -0.32472725236904454 0.063159840458124478</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Ankle Joint-1" uid="Tarot Landing Gear Ankle Joint-1" entityUid="Tarot Landing Gear Ankle Joint*:*Default">
+<Transform>
+<Rotation>0 -0.33558141034128158 0.94201120854974774 1.9936962899105868e-16 0.94201120854974774 0.33558141034128158 -1 0 0</Rotation>
+<Translation>0.14262430405148013 -0.2917568600698035 0.06114734045812463</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Foot Endcap (BLACK)-1" uid="Tarot Landing Gear Foot Endcap (BLACK)-1" entityUid="Tarot Landing Gear Foot Endcap (BLACK)*:*Default">
+<Transform>
+<Rotation>-0.4689818598842026 0.88320779836885177 0 -0.88320779836885166 -0.46898185988420271 -1.1102230246251568e-16 0 0 1</Rotation>
+<Translation>0.15436965341342507 -0.32472725236904448 -0.12850265954187556</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Leg Mount-1" uid="Tarot Landing Gear Leg Mount-1" entityUid="Tarot Landing Gear Leg Mount*:*Default">
+<Transform>
+<Rotation>-0.33558141034128158 0.94201120854974774 0 0.94201120854974774 0.33558141034128158 1.110221295600688e-16 -1.0458420445461219e-16 0 -0.99999999999999978</Rotation>
+<Translation>0.041641146051579925 -0.0082868471930098442 0.061147340458124665</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Ankle Joint Nut-1" uid="Tarot Landing Gear Ankle Joint Nut-1" entityUid="Tarot Landing Gear Ankle Joint Nut*:*Default">
+<Transform>
+<Rotation>-0.29062202639336177 -0.94201120854974763 -0.16779070517063788 0.81580563725376709 -0.33558141034128186 0.47100560427486532 -0.49999999999999101 0 0.8660254037844437</Rotation>
+<Translation>0.15734774592348805 -0.29136842160414056 0.06114734045812463</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Ankle Joint Top Screw-1" uid="Tarot Landing Gear Ankle Joint Top Screw-1" entityUid="Tarot Landing Gear Ankle Joint Top Screw*:*Default">
+<Transform>
+<Rotation>0.016901141082735036 -0.94201120854974785 0.33515553761909583 -0.047443224942125564 -0.33558141034128169 -0.94081574042978655 0.99873094066279555 0 -0.050363758426150207</Rotation>
+<Translation>0.12861640406272074 -0.30160365461954963 0.06114734045812463</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Landing Gear Leg-1" uid="Tarot Landing Gear Leg-1" entityUid="Tarot Landing Gear Leg*:*Default">
+<Transform>
+<Rotation>0.94201120854974774 -0.33558141034128158 0 0.33558141034128158 0.94201120854974774 -1.4067660349644055e-16 0 0 0.99999999999999978</Rotation>
+<Translation>0.031070331625827952 0.02138650587630854 0.061147340458124547</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-7" uid="Tarot Hub Arm Mount-7" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>0.38268343236509395 0 0.92387953251128518 0 -1 0 0.92387953251128518 0 -0.38268343236509395</Rotation>
+<Translation>0.12610714634946524 0.16555269146411034 0.40816817276287187</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Arm-5" uid="Tarot Arm-5" entityUid="Tarot Arm">
+<Transform>
+<Rotation>-0.92387953251128863 -0.030276497621989681 -0.38148387003708056 -9.0032148403196288e-16 -0.99686539257633699 0.079116300998121961 -0.38268343236508506 0.073093931180167673 0.92098353287010848</Rotation>
+<Translation>0.18740566458330069 0.36589617731510238 0.40587344923057134</Translation>
+</Transform>
+<Instance name="Tarot Motor Mount-1" uid="Tarot Motor Mount-1" entityUid="Tarot Motor Mount" rigid="true">
+<Transform>
+<Rotation>1 1.4918621893400546e-16 0 1.4918621893400543e-16 -1 4.9960036108132044e-16 0 -4.9960036108132044e-16 -1</Rotation>
+<Translation>0.13763383993369416 0.25524127788283052 0.4985091995387157</Translation>
+</Transform>
+<Instance name="Tarot Motor Mount Base-1" uid="Tarot Motor Mount Base-1" grounded="true" entityUid="Tarot Motor Mount Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03681888319641291 0.05241424104215045 0.083466912945254546</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-1" uid="Tarot Motor Mount Bottom Dampener-1" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251129129 0 0.38268343236507885 0 1 0 -0.38268343236507846 0 0.92387953251129151</Rotation>
+<Translation>0.054568883196412871 0.058414241042150483 0.087784263742545998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-2" uid="Tarot Motor Mount Bottom Dampener-2" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128252 0 -0.38268343236509988 0 1 0 0.38268343236510016 0 0.9238795325112823</Rotation>
+<Translation>0.019068883196412922 0.058414241042150483 0.087784263742545887</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-3" uid="Tarot Motor Mount Bottom Dampener-3" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.38268343236510077 0 1 0 0.38268343236510077 0 0.92387953251128208</Rotation>
+<Translation>0.054568883196412926 0.058414241042150483 0.034784263742546062</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-2" uid="Tarot Motor Mount Top Dampener-2" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.38268343236510077 0 1 0 0.38268343236510105 0 0.92387953251128185</Rotation>
+<Translation>0.019068883196413228 0.062789241042150445 0.087784263742546109</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-3" uid="Tarot Motor Mount Screw-3" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196413228 0.065164241042150434 0.087784263742546109</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-1" uid="Tarot Motor Mount Top Dampener-1" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128185 0 -0.38268343236510127 0 1 0 0.38268343236510127 0 0.92387953251128185</Rotation>
+<Translation>0.054568883196413231 0.062789241042150445 0.087784263742545887</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-3" uid="Tarot Motor Mount Top Dampener-3" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251129129 0 0.38268343236507907 0 1 0 -0.38268343236507907 0 0.92387953251129129</Rotation>
+<Translation>0.019068883196412895 0.062789241042150445 0.034784263742546173</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-1" uid="Tarot Motor Mount Screw-1" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196412926 0.065164241042150461 0.034784263742545951</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-4" uid="Tarot Motor Mount Screw-4" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196413204 0.065164241042150461 0.087784263742545998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-5" uid="Tarot Motor Mount Screw-5" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196412895 0.065164241042150434 0.034784263742546062</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Plate-1" uid="Tarot Motor Mount Top Plate-1" entityUid="Tarot Motor Mount Top Plate*:*Default">
+<Transform>
+<Rotation>-6.1617377866696204e-15 0 1 0 1 0 -1 0 -6.1617377866696204e-15</Rotation>
+<Translation>0.036818883196413188 0.060414241042150457 0.089534263742546027</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-4" uid="Tarot Motor Mount Top Dampener-4" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.9238795325112914 0 0.38268343236507901 0 1 0 -0.38268343236507901 0 0.9238795325112914</Rotation>
+<Translation>0.054568883196412843 0.062789241042150445 0.03478426374254584</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-4" uid="Tarot Motor Mount Bottom Dampener-4" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>-0.3826834323651005 0 -0.92387953251128252 0 1 0 0.92387953251128252 0 -0.3826834323651005</Rotation>
+<Translation>0.019068883196412895 0.058414241042150483 0.034784263742545951</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot 1555 folding-1" uid="Tarot 1555 folding-1" entityUid="Tarot 1555 folding" rigid="true">
+<Transform>
+<Rotation>0.75850556224292209 -3.9551695252271202e-16 0.65166656508259546 -1.2836953722228372e-16 -1 -4.7184478546569153e-16 0.65166656508259524 2.7755575615628914e-16 -0.7585055622429222</Rotation>
+<Translation>0.1360362893750765 0.14774696520802844 0.48182254708953726</Translation>
+</Transform>
+<Instance name="Prop-2" uid="Prop-2" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>0.024130113701715472 0 -0.99970882641534309 0 1 0 0.9997088264153432 0 0.024130113701715417</Rotation>
+<Translation>-0.024901193325329862 0.00016992836734849859 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-3" uid="socket head cap screw_iso-3" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1.0000000000000002</Rotation>
+<Translation>0.023098806674670125 0.0081699283673484779 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_bot-1" uid="Center_bot-1" grounded="true" entityUid="Center_bot*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325329918 -0.0058300716326515345 0.059999999999999942</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop-1" uid="Prop-1" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>-0.020202040938429866 0 0.99979591794621869 0 1 0 -0.9997959179462188 0 -0.020202040938429755</Rotation>
+<Translation>0.023098806674670125 0.00016992836734841532 0.059999999999999942</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_top-1" uid="Center_top-1" entityUid="Center_top*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325329918 0.0021699283673484726 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-2" uid="socket head cap screw_iso-2" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1.0000000000000002</Rotation>
+<Translation>-0.024901193325329918 0.0081699283673484779 0.060000000000000164</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor-1" uid="Tarot Sunny Sky Motor-1" entityUid="Tarot Sunny Sky Motor">
+<Transform>
+<Rotation>-0.83716910433122238 0 -0.54694413860398849 0 -0.99999999999999989 0 -0.54694413860398861 0 0.83716910433122227</Rotation>
+<Translation>0.21149384795933954 0.21454167046505815 0.42064106611633295</Translation>
+</Transform>
+<Instance name="Tarot Sunny Sky Motor Top-1" uid="Tarot Sunny Sky Motor Top-1" entityUid="Tarot Sunny Sky Motor Top*:*Default">
+<Transform>
+<Rotation>0.20250216642962673 0 0.97928181469447695 0 0.99999999999999989 0 -0.97928181469447706 0 0.20250216642962693</Rotation>
+<Translation>0.022759651187892582 0.026714633624400214 0.032887175782408185</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor Bottom-1" uid="Tarot Sunny Sky Motor Bottom-1" grounded="true" entityUid="Tarot Sunny Sky Motor Bottom*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.022759651187856444 0.026714633624377981 0.032887175782364886</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Main Arm-1" uid="Tarot Main Arm-1" grounded="true" entityUid="Tarot Main Arm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.17445272313010704 0.20282703684068018 0.23279228659346091</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-14" uid="Tarot Hub Arm Mount-14" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>-0.38268343236508351 0 0.92387953251128963 0 -1 0 0.92387953251128963 0 0.38268343236508351</Rotation>
+<Translation>-0.013600926939503849 0.16555269146411034 0.40816817276287359</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Arm-4" uid="Tarot Arm-4" entityUid="Tarot Arm">
+<Transform>
+<Rotation>-0.38268343236509278 -0.073093931180166716 -0.92098353287010526 -9.0032148403196288e-16 -0.99686539257633699 0.079116300998121961 -0.92387953251128541 0.030276497621991975 0.38148387003708839</Rotation>
+<Translation>0.050305815967447876 0.36589617731510238 0.45773516647555212</Translation>
+</Transform>
+<Instance name="Tarot 1555 folding-1" uid="Tarot 1555 folding-1" entityUid="Tarot 1555 folding" rigid="true">
+<Transform>
+<Rotation>0.7585055622429222 -3.920475055707584e-16 0.65166656508259546 -1.3183898417423734e-16 -1 -4.7878367936959876e-16 0.65166656508259524 2.6714741530042829e-16 -0.7585055622429222</Rotation>
+<Translation>0.13603628937507661 0.14774696520802844 0.48182254708953737</Translation>
+</Transform>
+<Instance name="Prop-2" uid="Prop-2" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>0.024130113701715354 0 -0.99970882641534298 0 1 0 0.99970882641534298 0 0.024130113701715354</Rotation>
+<Translation>-0.024901193325329862 0.00016992836734852634 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-3" uid="socket head cap screw_iso-3" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1.0000000000000002</Rotation>
+<Translation>0.023098806674670097 0.0081699283673484779 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_bot-1" uid="Center_bot-1" grounded="true" entityUid="Center_bot*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325329862 -0.005830071632651479 0.059999999999999942</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop-1" uid="Prop-1" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>-0.020202040938429811 0 0.9997959179462188 0 1 0 -0.99979591794621891 0 -0.020202040938429866</Rotation>
+<Translation>0.023098806674670153 0.00016992836734844308 0.059999999999999942</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_top-1" uid="Center_top-1" entityUid="Center_top*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325329946 0.0021699283673484726 0.059999999999999942</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-2" uid="socket head cap screw_iso-2" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1.0000000000000002</Rotation>
+<Translation>-0.02490119332532989 0.0081699283673485057 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Main Arm-1" uid="Tarot Main Arm-1" grounded="true" entityUid="Tarot Main Arm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.17445272313010707 0.20282703684068021 0.23279228659346113</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount-1" uid="Tarot Motor Mount-1" entityUid="Tarot Motor Mount" rigid="true">
+<Transform>
+<Rotation>0.99999999999999989 1.4224732503009818e-16 0 1.4224732503009818e-16 -0.99999999999999989 5.0306980803327396e-16 0 -5.0306980803327406e-16 -0.99999999999999978</Rotation>
+<Translation>0.13763383993369405 0.25524127788283058 0.49850919953871581</Translation>
+</Transform>
+<Instance name="Tarot Motor Mount Base-1" uid="Tarot Motor Mount Base-1" grounded="true" entityUid="Tarot Motor Mount Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03681888319641291 0.05241424104215045 0.083466912945254546</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-1" uid="Tarot Motor Mount Bottom Dampener-1" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.9238795325112914 0 0.38268343236507846 0 0.99999999999999989 0 -0.38268343236507851 0 0.92387953251129129</Rotation>
+<Translation>0.054568883196412954 0.058414241042150483 0.087784263742546109</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-2" uid="Tarot Motor Mount Bottom Dampener-2" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128241 0 -0.38268343236509994 0 0.99999999999999989 0 0.38268343236510022 0 0.9238795325112823</Rotation>
+<Translation>0.019068883196412978 0.058414241042150483 0.087784263742545887</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-3" uid="Tarot Motor Mount Bottom Dampener-3" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.38268343236510072 0 0.99999999999999989 0 0.38268343236510077 0 0.92387953251128196</Rotation>
+<Translation>0.054568883196412982 0.058414241042150483 0.034784263742545951</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-2" uid="Tarot Motor Mount Top Dampener-2" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.38268343236510083 0 0.99999999999999989 0 0.38268343236510111 0 0.92387953251128196</Rotation>
+<Translation>0.019068883196413255 0.062789241042150473 0.087784263742546109</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-3" uid="Tarot Motor Mount Screw-3" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196413255 0.065164241042150434 0.08778426374254622</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-1" uid="Tarot Motor Mount Top Dampener-1" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128196 0 -0.382683432365101 0 0.99999999999999989 0 0.38268343236510122 0 0.92387953251128185</Rotation>
+<Translation>0.054568883196413231 0.062789241042150445 0.087784263742545887</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-3" uid="Tarot Motor Mount Top Dampener-3" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.9238795325112914 0 0.3826834323650789 0 0.99999999999999989 0 -0.38268343236507896 0 0.92387953251129129</Rotation>
+<Translation>0.019068883196412922 0.062789241042150445 0.034784263742546173</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-1" uid="Tarot Motor Mount Screw-1" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196412926 0.065164241042150461 0.034784263742545951</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-4" uid="Tarot Motor Mount Screw-4" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196413259 0.065164241042150461 0.087784263742545998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-5" uid="Tarot Motor Mount Screw-5" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196412978 0.065164241042150434 0.034784263742546173</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Plate-1" uid="Tarot Motor Mount Top Plate-1" entityUid="Tarot Motor Mount Top Plate*:*Default">
+<Transform>
+<Rotation>-6.1617377866696204e-15 0 0.99999999999999989 0 0.99999999999999989 0 -1 0 -6.1617377866696196e-15</Rotation>
+<Translation>0.036818883196413243 0.060414241042150457 0.089534263742546027</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-4" uid="Tarot Motor Mount Top Dampener-4" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.9238795325112914 0 0.3826834323650789 0 0.99999999999999989 0 -0.38268343236507896 0 0.92387953251129129</Rotation>
+<Translation>0.054568883196412898 0.062789241042150473 0.034784263742545951</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-4" uid="Tarot Motor Mount Bottom Dampener-4" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>-0.38268343236510055 0 -0.9238795325112823 0 0.99999999999999989 0 0.9238795325112823 0 -0.38268343236510061</Rotation>
+<Translation>0.019068883196412978 0.058414241042150455 0.034784263742545951</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor-1" uid="Tarot Sunny Sky Motor-1" entityUid="Tarot Sunny Sky Motor">
+<Transform>
+<Rotation>-0.83716910433122216 0 -0.54694413860398861 0 -0.99999999999999989 0 -0.54694413860398861 0 0.83716910433122238</Rotation>
+<Translation>0.21149384795933948 0.21454167046505818 0.42064106611633295</Translation>
+</Transform>
+<Instance name="Tarot Sunny Sky Motor Bottom-1" uid="Tarot Sunny Sky Motor Bottom-1" grounded="true" entityUid="Tarot Sunny Sky Motor Bottom*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.022759651187856417 0.026714633624377981 0.032887175782364997</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor Top-1" uid="Tarot Sunny Sky Motor Top-1" entityUid="Tarot Sunny Sky Motor Top*:*Default">
+<Transform>
+<Rotation>0.20250216642962687 0 0.97928181469447673 0 0.99999999999999989 0 -0.97928181469447684 0 0.20250216642962685</Rotation>
+<Translation>0.022759651187805457 0.026714633624400241 0.032887175782192024</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Tarot Arm-6" uid="Tarot Arm-6" entityUid="Tarot Arm">
+<Transform>
+<Rotation>-0.92387953251128407 0.030276497621992228 0.38148387003709161 -9.0032148403196288e-16 -0.99686539257633699 0.079116300998121961 0.382683432365096 0.073093931180166619 0.92098353287010393</Rotation>
+<Translation>0.24767812529131386 0.36589617731510238 0.27225744462674734</Translation>
+</Transform>
+<Instance name="Tarot Motor Mount-1" uid="Tarot Motor Mount-1" entityUid="Tarot Motor Mount" rigid="true">
+<Transform>
+<Rotation>0.99999999999999989 1.457167719820518e-16 0 1.457167719820518e-16 -0.99999999999999989 4.9960036108132034e-16 0 -4.9960036108132044e-16 -0.99999999999999978</Rotation>
+<Translation>0.13763383993369416 0.25524127788283052 0.49850919953871597</Translation>
+</Transform>
+<Instance name="Tarot Motor Mount Base-1" uid="Tarot Motor Mount Base-1" grounded="true" entityUid="Tarot Motor Mount Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03681888319641291 0.05241424104215045 0.083466912945254768</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-1" uid="Tarot Motor Mount Bottom Dampener-1" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.9238795325112914 0 0.38268343236507885 0 0.99999999999999989 0 -0.38268343236507851 0 0.92387953251129151</Rotation>
+<Translation>0.054568883196412871 0.058414241042150455 0.08778426374254622</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-2" uid="Tarot Motor Mount Bottom Dampener-2" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128241 0 -0.38268343236510011 0 0.99999999999999989 0 0.38268343236510016 0 0.9238795325112823</Rotation>
+<Translation>0.019068883196412922 0.058414241042150455 0.087784263742545998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-3" uid="Tarot Motor Mount Bottom Dampener-3" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.38268343236510072 0 0.99999999999999989 0 0.38268343236510077 0 0.92387953251128196</Rotation>
+<Translation>0.054568883196412871 0.058414241042150455 0.034784263742546062</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-2" uid="Tarot Motor Mount Top Dampener-2" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.38268343236510088 0 0.99999999999999989 0 0.38268343236510111 0 0.92387953251128185</Rotation>
+<Translation>0.019068883196413228 0.062789241042150445 0.087784263742546331</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-3" uid="Tarot Motor Mount Screw-3" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196413283 0.065164241042150434 0.08778426374254622</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-1" uid="Tarot Motor Mount Top Dampener-1" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128196 0 -0.382683432365101 0 0.99999999999999989 0 0.38268343236510127 0 0.92387953251128185</Rotation>
+<Translation>0.054568883196413259 0.062789241042150418 0.087784263742546109</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-3" uid="Tarot Motor Mount Top Dampener-3" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251129118 0 0.3826834323650794 0 0.99999999999999989 0 -0.3826834323650789 0 0.92387953251129107</Rotation>
+<Translation>0.019068883196412922 0.062789241042150418 0.034784263742546395</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-1" uid="Tarot Motor Mount Screw-1" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196412871 0.065164241042150461 0.034784263742546173</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-4" uid="Tarot Motor Mount Screw-4" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196413231 0.065164241042150434 0.087784263742546109</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-5" uid="Tarot Motor Mount Screw-5" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196412922 0.065164241042150434 0.034784263742546395</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Plate-1" uid="Tarot Motor Mount Top Plate-1" entityUid="Tarot Motor Mount Top Plate*:*Default">
+<Transform>
+<Rotation>-6.1617377866696204e-15 0 0.99999999999999989 0 0.99999999999999989 0 -1 0 -6.1617377866696196e-15</Rotation>
+<Translation>0.036818883196413243 0.060414241042150457 0.08953426374254625</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-4" uid="Tarot Motor Mount Top Dampener-4" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251129118 0 0.38268343236507929 0 0.99999999999999989 0 -0.38268343236507879 0 0.92387953251129107</Rotation>
+<Translation>0.054568883196412926 0.062789241042150418 0.034784263742546062</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-4" uid="Tarot Motor Mount Bottom Dampener-4" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>-0.3826834323651005 0 -0.9238795325112823 0 0.99999999999999989 0 0.92387953251128241 0 -0.38268343236510044</Rotation>
+<Translation>0.019068883196412867 0.058414241042150455 0.034784263742546062</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Main Arm-1" uid="Tarot Main Arm-1" grounded="true" entityUid="Tarot Main Arm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.17445272313010701 0.20282703684068015 0.23279228659346107</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot 1555 folding-1" uid="Tarot 1555 folding-1" entityUid="Tarot 1555 folding" rigid="true">
+<Transform>
+<Rotation>0.75850556224292209 -3.8857805861880479e-16 0.65166656508259524 -1.2490009027033011e-16 -1 -4.7184478546569153e-16 0.65166656508259535 2.7755575615628914e-16 -0.75850556224292232</Rotation>
+<Translation>0.13603628937507645 0.14774696520802838 0.48182254708953742</Translation>
+</Transform>
+<Instance name="Prop-2" uid="Prop-2" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>0.024130113701715361 0 -0.99970882641534309 0 1 0 0.9997088264153432 0 0.024130113701715361</Rotation>
+<Translation>-0.024901193325329807 0.00016992836734852634 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-3" uid="socket head cap screw_iso-3" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1.0000000000000002</Rotation>
+<Translation>0.023098806674670236 0.0081699283673485057 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_bot-1" uid="Center_bot-1" grounded="true" entityUid="Center_bot*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325329918 -0.0058300716326514512 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop-1" uid="Prop-1" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>-0.020202040938429866 0 0.9997959179462188 0 1 0 -0.99979591794621891 0 -0.020202040938429922</Rotation>
+<Translation>0.023098806674670125 0.00016992836734847083 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_top-1" uid="Center_top-1" entityUid="Center_top*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325329918 0.0021699283673485281 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-2" uid="socket head cap screw_iso-2" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1.0000000000000002</Rotation>
+<Translation>-0.024901193325329807 0.0081699283673485057 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor-1" uid="Tarot Sunny Sky Motor-1" entityUid="Tarot Sunny Sky Motor">
+<Transform>
+<Rotation>-0.83716910433122227 0 -0.54694413860398827 0 -0.99999999999999989 0 -0.54694413860398838 0 0.83716910433122216</Rotation>
+<Translation>0.21149384795933951 0.21454167046505812 0.42064106611633301</Translation>
+</Transform>
+<Instance name="Tarot Sunny Sky Motor Bottom-1" uid="Tarot Sunny Sky Motor Bottom-1" grounded="true" entityUid="Tarot Sunny Sky Motor Bottom*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.022759651187856278 0.026714633624377981 0.032887175782364886</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor Top-1" uid="Tarot Sunny Sky Motor Top-1" entityUid="Tarot Sunny Sky Motor Top*:*Default">
+<Transform>
+<Rotation>0.20250216642962671 0 0.97928181469447684 0 0.99999999999999989 0 -0.97928181469447695 0 0.20250216642962668</Rotation>
+<Translation>0.022759651188106966 0.026714633624400241 0.032887175782499334</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-5" uid="Tarot Hub Arm Mount-5" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>-0.92387953251128652 0 0.38268343236509073 0 -1 0 0.38268343236509073 0 0.92387953251128652</Rotation>
+<Translation>-0.085604912168676245 0.16555269146411034 0.33616418753370297</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-16" uid="Tarot Hub Arm Mount-16" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>0.92387953251129085 0 0.38268343236508034 0 -1 0 0.38268343236508034 0 -0.92387953251129085</Rotation>
+<Translation>0.19811113157863558 0.16555269146411034 0.33616418753369925</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Arm-3" uid="Tarot Arm-3" entityUid="Tarot Arm">
+<Transform>
+<Rotation>0.38268343236508834 -0.073093931180167562 -0.92098353287010726 -9.0032148403196288e-16 -0.99686539257633699 0.079116300998121961 -0.92387953251128729 -0.030276497621989942 -0.38148387003708384</Rotation>
+<Translation>-0.083310188636375931 0.36589617731510238 0.39746270576753839</Translation>
+</Transform>
+<Instance name="Tarot 1555 folding-1" uid="Tarot 1555 folding-1" entityUid="Tarot 1555 folding" rigid="true">
+<Transform>
+<Rotation>0.75850556224292209 -3.920475055707584e-16 0.65166656508259557 -1.214306433183765e-16 -1 -4.8745729674948279e-16 0.65166656508259535 2.7235158572835871e-16 -0.75850556224292232</Rotation>
+<Translation>0.1360362893750765 0.14774696520802846 0.48182254708953753</Translation>
+</Transform>
+<Instance name="Prop-2" uid="Prop-2" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>0.024130113701715361 0 -0.99970882641534287 0 0.99999999999999989 0 0.99970882641534298 0 0.024130113701715361</Rotation>
+<Translation>-0.024901193325329862 0.00016992836734849859 0.059999999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-3" uid="socket head cap screw_iso-3" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>0.023098806674670139 0.0081699283673485057 0.059999999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_bot-1" uid="Center_bot-1" grounded="true" entityUid="Center_bot*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325329862 -0.0058300716326515067 0.060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="Prop-1" uid="Prop-1" entityUid="Prop*:*Standard">
+<Transform>
+<Rotation>-0.020202040938429811 0 0.99979591794621858 0 0.99999999999999989 0 -0.9997959179462188 0 -0.020202040938429866</Rotation>
+<Translation>0.023098806674670153 0.00016992836734844308 0.059999999999999942</Translation>
+</Transform>
+</Instance>
+<Instance name="Center_top-1" uid="Center_top-1" entityUid="Center_top*:*Standard">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024901193325329848 0.0021699283673485004 0.059999999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_iso-2" uid="socket head cap screw_iso-2" entityUid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>-0.024901193325329848 0.0081699283673485057 0.059999999999999942</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Motor Mount-1" uid="Tarot Motor Mount-1" entityUid="Tarot Motor Mount" rigid="true">
+<Transform>
+<Rotation>1 1.4918621893400541e-16 0 1.4918621893400543e-16 -0.99999999999999989 5.0480453150925086e-16 0 -5.0480453150925086e-16 -0.99999999999999989</Rotation>
+<Translation>0.13763383993369405 0.25524127788283058 0.49850919953871586</Translation>
+</Transform>
+<Instance name="Tarot Motor Mount Base-1" uid="Tarot Motor Mount Base-1" grounded="true" entityUid="Tarot Motor Mount Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03681888319641291 0.052414241042150464 0.083466912945254657</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-1" uid="Tarot Motor Mount Bottom Dampener-1" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251129129 0 0.38268343236507857 0 1 0 -0.38268343236507857 0 0.92387953251129129</Rotation>
+<Translation>0.054568883196412898 0.058414241042150497 0.087784263742546109</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-2" uid="Tarot Motor Mount Bottom Dampener-2" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128252 0 -0.38268343236509983 0 1 0 0.38268343236510033 0 0.92387953251128252</Rotation>
+<Translation>0.019068883196412895 0.058414241042150469 0.087784263742545998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-3" uid="Tarot Motor Mount Bottom Dampener-3" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.38268343236510088 0 1 0 0.38268343236510088 0 0.92387953251128208</Rotation>
+<Translation>0.054568883196412871 0.058414241042150469 0.034784263742546007</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-2" uid="Tarot Motor Mount Top Dampener-2" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128208 0 -0.38268343236510077 0 1 0 0.38268343236510127 0 0.92387953251128208</Rotation>
+<Translation>0.0190688831964132 0.062789241042150459 0.08778426374254622</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-3" uid="Tarot Motor Mount Screw-3" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196413228 0.065164241042150475 0.08778426374254622</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-1" uid="Tarot Motor Mount Top Dampener-1" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251128196 0 -0.38268343236510094 0 1 0 0.38268343236510133 0 0.92387953251128196</Rotation>
+<Translation>0.054568883196413204 0.062789241042150459 0.087784263742545998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-3" uid="Tarot Motor Mount Top Dampener-3" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251129129 0 0.38268343236507923 0 1 0 -0.38268343236507923 0 0.92387953251129129</Rotation>
+<Translation>0.019068883196412895 0.062789241042150459 0.034784263742546284</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-1" uid="Tarot Motor Mount Screw-1" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196412926 0.065164241042150475 0.034784263742546007</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-4" uid="Tarot Motor Mount Screw-4" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054568883196413231 0.065164241042150475 0.087784263742545998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Screw-5" uid="Tarot Motor Mount Screw-5" entityUid="Tarot Motor Mount Screw*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019068883196412922 0.065164241042150475 0.034784263742546229</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Plate-1" uid="Tarot Motor Mount Top Plate-1" entityUid="Tarot Motor Mount Top Plate*:*Default">
+<Transform>
+<Rotation>-6.1617377866696172e-15 0 1 0 1 0 -1 0 -6.1617377866696172e-15</Rotation>
+<Translation>0.036818883196413243 0.060414241042150471 0.089534263742546083</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Top Dampener-4" uid="Tarot Motor Mount Top Dampener-4" entityUid="Tarot Motor Mount Top Dampener*:*Default">
+<Transform>
+<Rotation>0.92387953251129129 0 0.38268343236507918 0 1 0 -0.38268343236507918 0 0.92387953251129129</Rotation>
+<Translation>0.054568883196412898 0.062789241042150459 0.034784263742546007</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Motor Mount Bottom Dampener-4" uid="Tarot Motor Mount Bottom Dampener-4" entityUid="Tarot Motor Mount Bottom Dampener*:*Default">
+<Transform>
+<Rotation>-0.3826834323651005 0 -0.9238795325112823 0 1 0 0.9238795325112823 0 -0.3826834323651005</Rotation>
+<Translation>0.019068883196412922 0.058414241042150469 0.034784263742546007</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tarot Main Arm-1" uid="Tarot Main Arm-1" grounded="true" entityUid="Tarot Main Arm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.17445272313010707 0.20282703684068021 0.23279228659346113</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor-1" uid="Tarot Sunny Sky Motor-1" entityUid="Tarot Sunny Sky Motor">
+<Transform>
+<Rotation>-0.83716910433122216 0 -0.54694413860398849 0 -0.99999999999999989 0 -0.54694413860398861 0 0.83716910433122205</Rotation>
+<Translation>0.21149384795933945 0.21454167046505818 0.42064106611633306</Translation>
+</Transform>
+<Instance name="Tarot Sunny Sky Motor Top-1" uid="Tarot Sunny Sky Motor Top-1" entityUid="Tarot Sunny Sky Motor Top*:*Default">
+<Transform>
+<Rotation>0.20250216642962682 0 0.97928181469447673 0 0.99999999999999989 0 -0.97928181469447684 0 0.20250216642962679</Rotation>
+<Translation>0.022759651187896607 0.026714633624400214 0.032887175781977529</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Sunny Sky Motor Bottom-1" uid="Tarot Sunny Sky Motor Bottom-1" grounded="true" entityUid="Tarot Sunny Sky Motor Bottom*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.022759651187856444 0.026714633624377981 0.032887175782364941</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-9" uid="Tarot Hub Arm Mount-9" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>0.92387953251128385 0 -0.38268343236509716 0 -1 0 -0.38268343236509716 0 -0.92387953251128385</Rotation>
+<Translation>0.19811113157863341 0.16555269146411034 0.19645611424473017</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-13" uid="Tarot Hub Arm Mount-13" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>-0.92387953251128496 0 0.38268343236509456 0 -1 0 0.38268343236509456 0 0.92387953251128496</Rotation>
+<Translation>-0.09344992253216064 0.16555269146411034 0.31722465711722164</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-15" uid="Tarot Hub Arm Mount-15" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>0.38268343236509778 0 0.92387953251128363 0 -1 0 0.92387953251128363 0 -0.38268343236509778</Rotation>
+<Translation>0.10716761593298392 0.16555269146411034 0.41601318312635632</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-6" uid="Tarot Hub Arm Mount-6" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>-0.38268343236508734 0 0.92387953251128796 0 -1 0 0.92387953251128796 0 0.38268343236508734</Rotation>
+<Translation>0.0053386034769775659 0.16555269146411034 0.41601318312635782</Translation>
+</Transform>
+</Instance>
+<Instance name="Tarot Hub Arm Mount-17" uid="Tarot Hub Arm Mount-17" entityUid="Tarot Hub Arm Mount*:*Default">
+<Transform>
+<Rotation>0.9238795325112823 0 -0.382683432365101 0 -1 0 -0.382683432365101 0 -0.9238795325112823</Rotation>
+<Translation>0.20595614194211792 0.16555269146411034 0.21539564466121144</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Top Plate-1</Uid>
+</InstancePath>
+<Position>-0.054341047395842744 -0.0074246212024587643 -0.13119089361660272</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Top Plate Clip-1</Uid>
+</InstancePath>
+<Position>0 -0.01527817459305203 -0.026999999999999996</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Top Plate-1</Uid>
+</InstancePath>
+<Position>0 0.0017500000000000016 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Top Plate Clip-1</Uid>
+</InstancePath>
+<Position>-0.0049999999999999975 -0.0075000000000000067 -0.039999999999999994</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Top Plate Clip-1</Uid>
+</InstancePath>
+<Position>0 -0.01527817459305203 -0.026999999999999996</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Top Plate Clip Screw-1</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Top Plate Clip Lock-1</Uid>
+</InstancePath>
+<Position>0 0.010674621202458739 -0.0027942461355010967</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Top Plate Clip Screw-1</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Top Plate-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Top Plate Clip Lock-1</Uid>
+</InstancePath>
+<Position>0 0.0032500000000000029 -0.002136308139534901</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Top Plate Clip Lock-1</Uid>
+</InstancePath>
+<Position>0 -0.0032500000000000029 -0.002136308139534901</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Top Plate Clip Screw-1</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Top Plate-1</Uid>
+</InstancePath>
+<Position>0 0.0017500000000000016 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Strut-1</Uid>
+</InstancePath>
+<Position>0 0.019500000000000017 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Strut-1</Uid>
+</InstancePath>
+<Position>0 0.019500000000000017 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Top Plate-1</Uid>
+</InstancePath>
+<Position>-0.030385064529789146 -0.0043840620433565902 -0.073356034881395749</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Strut-1</Uid>
+</InstancePath>
+<Position>0 -0.019500000000000017 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Bottom Plate-1</Uid>
+</InstancePath>
+<Position>-0.030411927302933725 -0.0015000000000000013 -0.073420887352647235</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Strut-1</Uid>
+</InstancePath>
+<Position>0 -0.017749999999999988 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Bottom Plate-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Top Plate-1</Uid>
+</InstancePath>
+<Position>0.04275000000000001 -0.099688159792164818 -0.15837499999999996</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Bottom Plate-1</Uid>
+</InstancePath>
+<Position>-0.04024999999999998 -0.0957854192956272 -0.15662499999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Top Plate-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Arm Mount-3</Uid>
+</InstancePath>
+<Position>-0.0097499999999999948 -0.017749999999999988 0.0035000000000000031</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Top Plate-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Arm Mount-3</Uid>
+</InstancePath>
+<Position>-0.0097499999999999948 -0.017749999999999988 0.0035000000000000031</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Bottom Plate-1</Uid>
+</InstancePath>
+<Position>-0.069670423529829204 -0.0015000000000000013 -0.14141474060202561</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Arm Mount-3</Uid>
+</InstancePath>
+<Position>-0.00055000000000000882 0.0092500000000000082 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Arm Mount-3</Uid>
+</InstancePath>
+<Position>-0.0077500000000000069 -0.017749999999999988 -0.0034999999999999962</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Bottom Plate-1</Uid>
+</InstancePath>
+<Position>-0.070727390575167692 -0.036607422235428871 -0.149846018119807</Position>
+<Axis>-0.38268343236508667 0 -0.92387953251128818</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Top Plate-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Arm Mount-11</Uid>
+</InstancePath>
+<Position>-0.0097499999999999948 -0.017749999999999988 0.0034999999999999962</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Bottom Plate-1</Uid>
+</InstancePath>
+<Position>-0.050730893113347844 -0.0015000000000000013 -0.14925975096550995</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Arm Mount-11</Uid>
+</InstancePath>
+<Position>-0.00054999999999999494 0.0092500000000000082 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Bottom Plate-1</Uid>
+</InstancePath>
+<Position>-0.047118839893805234 -0.036607422235428871 -0.15962499999999993</Position>
+<Axis>-0.38268343236509123 0 -0.92387953251128618</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Arm Mount-11</Uid>
+</InstancePath>
+<Position>-0.007749999999999993 -0.017749999999999988 -0.00350000000000001</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Hub Bottom Plate-1</Uid>
+</InstancePath>
+<Position>0 -0.0015000000000000013 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Landing Gear-1</Uid>
+<Uid>Tarot Landing Gear Hub Mount-1</Uid>
+</InstancePath>
+<Position>0 0.012624999999999997 0</Position>
+<Axis>0 1 -1.1102230246251568e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Bottom Plate-1</Uid>
+</InstancePath>
+<Position>-0.016 -0.0015000000000000013 -0.14312499999999997</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Landing Gear-1</Uid>
+<Uid>Tarot Landing Gear Hub Mount-1</Uid>
+</InstancePath>
+<Position>0.023749999999999993 0.0043823593128807237 -0.015249999999999993</Position>
+<Axis>0 1 -1.1102230246251568e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric27">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Hub Bottom Plate-1</Uid>
+</InstancePath>
+<Position>-0.011375000000000003 -0.0015000000000000013 -0.10162499999999999</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Landing Gear-1</Uid>
+<Uid>Tarot Landing Gear Hub Mount-1</Uid>
+</InstancePath>
+<Position>-0.017750000000000016 0.0043823593128807237 -0.010624999999999989</Position>
+<Axis>0 1 -1.1102230246251568e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Tarot Landing Gear" uid="Tarot Landing Gear" version="211">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Tarot Landing Gear.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Tarot Arm" uid="Tarot Arm" version="137">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="Tarot Arm.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Main Arm-1</Uid>
+</InstancePath>
+<Position>-0.0098499999999999976 0 0.155</Position>
+<Axis>1 1.1564823173178705e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Motor Mount-1</Uid>
+<Uid>Tarot Motor Mount Base-1</Uid>
+</InstancePath>
+<Position>-0.026000000000000023 0 0.027249999999999996</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Main Arm-1</Uid>
+</InstancePath>
+<Position>-0.0098499999999999976 0 0.13175000000000001</Position>
+<Axis>1 1.1564823173178705e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Motor Mount-1</Uid>
+<Uid>Tarot Motor Mount Base-1</Uid>
+</InstancePath>
+<Position>-0.026000000000000023 0 0.050499999999999989</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Main Arm-1</Uid>
+</InstancePath>
+<Position>-0.0085999999999999965 -0.0074000000000000177 0.16</Position>
+<Axis>1 2.3442209134821707e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Motor Mount-1</Uid>
+<Uid>Tarot Motor Mount Base-1</Uid>
+</InstancePath>
+<Position>-0.0086000000000000243 -0.0050000000000000044 0.052499999999999991</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Motor Mount-1</Uid>
+<Uid>Tarot Motor Mount Top Plate-1</Uid>
+</InstancePath>
+<Position>0.0016117443767728612 0.0010000000000000009 -0.01812402319558995</Position>
+<Axis>0 1 -1.1102230246251568e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Sunny Sky Motor-1</Uid>
+<Uid>Tarot Sunny Sky Motor Bottom-1</Uid>
+</InstancePath>
+<Position>0 -0.0060000000000000053 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Tarot Motor Mount-1</Uid>
+<Uid>Tarot Motor Mount Top Plate-1</Uid>
+</InstancePath>
+<Position>0.026749999999999996 0.0010000000000000009 0</Position>
+<Axis>0 1 -1.1102230246251568e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Tarot Sunny Sky Motor-1</Uid>
+<Uid>Tarot Sunny Sky Motor Bottom-1</Uid>
+</InstancePath>
+<Position>0 -0.0060000000000000053 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot Sunny Sky Motor-1</Uid>
+<Uid>Tarot Sunny Sky Motor Top-1</Uid>
+</InstancePath>
+<Position>0 0.020593145750507608 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tarot 1555 folding-1</Uid>
+<Uid>Center_bot-1</Uid>
+</InstancePath>
+<Position>0.024000000000000021 0.0040000000000000036 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Sunny Sky Motor-1</Uid>
+<Uid>Tarot Sunny Sky Motor Top-1</Uid>
+</InstancePath>
+<Position>0 0.034250000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot 1555 folding-1</Uid>
+<Uid>Center_bot-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+<Assembly name="Tarot 1555 folding" uid="Tarot 1555 folding" version="141">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Tarot 1555 folding.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Tarot Motor Mount" uid="Tarot Motor Mount" version="224">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Tarot Motor Mount.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Tarot Sunny Sky Motor" uid="Tarot Sunny Sky Motor" version="107">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="Tarot Sunny Sky Motor.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Tarot Sunny Sky Motor Bottom-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Tarot Sunny Sky Motor Top-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Sunny Sky Motor Bottom-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tarot Sunny Sky Motor Top-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Center_bot" uid="Center_bot*:*Standard" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Center_bot.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0058395011824018067</Mass>
+<CenterOfMass>0.024000000000000004 0.0019999999999999996 0</CenterOfMass>
+<Inertia>1.390355672289112e-07 1.9099138715975582e-06 1.786351977331272e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Center_bot_Standard_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Center_top" uid="Center_top*:*Standard" version="139">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Center_top.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0039243755531608946</Mass>
+<CenterOfMass>0.023999999999999997 0.0015 0</CenterOfMass>
+<Inertia>3.0860096448263227e-08 1.2522777090939849e-06 1.2272728588311173e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Center_top_Standard_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Prop" uid="Prop*:*Standard" version="165">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Prop.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0037977726475396075</Mass>
+<CenterOfMass>0.00040977465230829338 -0.00018728345672882325 0.05162175632764316</CenterOfMass>
+<Inertia>7.2945130613597739e-06 7.4247509798372351e-06 1.3510575739101684e-07 -3.4222526625532941e-09 -1.6781214151638295e-08 8.4795523063659688e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Prop_Standard_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.20862745098039215" g="0.20862745098039215" b="0.20862745098039215" a="1"/>
+<Specular r="0.014901960784313726" g="0.014901960784313726" b="0.014901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Hub Arm Mount" uid="Tarot Hub Arm Mount*:*Default" version="244">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Hub Arm Mount.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.005588797938409041</Mass>
+<CenterOfMass>0.00064499716064464756 0.00053347743509053931 0</CenterOfMass>
+<Inertia>7.5904010491211182e-07 1.5866016866409844e-07 8.8403400462232223e-07 0 0 -2.5647194326718439e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Hub Arm Mount_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Hub Bottom Plate" uid="Tarot Hub Bottom Plate*:*Default" version="260">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Hub Bottom Plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.23738197764837113</Mass>
+<CenterOfMass>2.4922639885057628e-08 -0.00074999999999999915 6.0168575155592231e-08</CenterOfMass>
+<Inertia>0.0015472874556402287 0.0030153045945044434 0.0014681061571058332 0 1.6839430229850958e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Hub Bottom Plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Hub Strut" uid="Tarot Hub Strut*:*Default" version="159">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Hub Strut.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00091362129921058782</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>1.6301525678195661e-07 4.2436278546830494e-09 1.6301525678195661e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Hub Strut_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.44705882352941173" g="0.4568627450980392" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Hub Top Plate Clip Lock" uid="Tarot Hub Top Plate Clip Lock*:*Default" version="124">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Hub Top Plate Clip Lock.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0018327129863112102</Mass>
+<CenterOfMass>0 0 -0.0068016884448884023</CenterOfMass>
+<Inertia>5.9134347211833438e-08 9.7039128993437352e-08 5.0810135726878673e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Hub Top Plate Clip Lock_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Hub Top Plate Clip Screw" uid="Tarot Hub Top Plate Clip Screw*:*Default" version="125">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Hub Top Plate Clip Screw.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.819620464325847e-05</Mass>
+<CenterOfMass>0 -0.0027542372881355932 0</CenterOfMass>
+<Inertia>6.8950474415032399e-10 1.3819978063739023e-10 6.8950474415032399e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Hub Top Plate Clip Screw_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Hub Top Plate Clip" uid="Tarot Hub Top Plate Clip*:*Default" version="191">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Hub Top Plate Clip.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0030129909308481482</Mass>
+<CenterOfMass>-2.7698964326937281e-08 -0.00052846207185129764 -0.021449275196899813</CenterOfMass>
+<Inertia>3.5831581865237193e-07 3.4419769609957389e-07 5.4074215030966986e-08 -1.0661089563630797e-08 7.8553748328422432e-14 5.0727806996196008e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Hub Top Plate Clip_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0" b="0" a="1"/>
+<Diffuse r="1" g="0" b="0" a="1"/>
+<Specular r="1" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Hub Top Plate" uid="Tarot Hub Top Plate*:*Default" version="372">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Hub Top Plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.19597630786744369</Mass>
+<CenterOfMass>2.4517257011846456e-05 0.0008750000000000024 0</CenterOfMass>
+<Inertia>0.001402638332416505 0.0027415655300038733 0.0013390272271611753 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Hub Top Plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Landing Gear Ankle Joint Bottom Screw" uid="Tarot Landing Gear Ankle Joint Bottom Screw*:*Default" version="127">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Landing Gear Ankle Joint Bottom Screw.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00015677675867202661</Mass>
+<CenterOfMass>0 -0.011947478772784261 0</CenterOfMass>
+<Inertia>1.1425517160324928e-08 1.8555791923099879e-10 1.1425517160324928e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Landing Gear Ankle Joint Bottom Screw_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Landing Gear Ankle Joint Nut" uid="Tarot Landing Gear Ankle Joint Nut*:*Default" version="127">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Landing Gear Ankle Joint Nut.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.471975248460247e-05</Mass>
+<CenterOfMass>0 -0.0016352079061372688 0</CenterOfMass>
+<Inertia>1.5032880669212782e-10 1.9456782433087505e-10 1.5032880669212795e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Landing Gear Ankle Joint Nut_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Landing Gear Ankle Joint Top Screw" uid="Tarot Landing Gear Ankle Joint Top Screw*:*Default" version="135">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Landing Gear Ankle Joint Top Screw.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00018082957742607345</Mass>
+<CenterOfMass>0 -0.014328760112086931 0</CenterOfMass>
+<Inertia>1.8166579023377227e-08 2.0434918388259778e-10 1.8166579023377227e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Landing Gear Ankle Joint Top Screw_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Landing Gear Ankle Joint" uid="Tarot Landing Gear Ankle Joint*:*Default" version="223">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Landing Gear Ankle Joint.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0080708646905067929</Mass>
+<CenterOfMass>-2.3096101869480379e-08 -0.021614359017337107 -1.9671866575441151e-05</CenterOfMass>
+<Inertia>1.9368569627328592e-06 1.2250822463977102e-06 1.8511719310925423e-06 1.268313038701088e-09 -4.7995096955193963e-12 -3.9409436979240255e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Landing Gear Ankle Joint_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Diffuse r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Specular r="0.030588236509584914" g="0.030588236509584914" b="0.030588236509584914" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.5</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Landing Gear Foot Endcap (BLACK)" uid="Tarot Landing Gear Foot Endcap (BLACK)*:*Default" version="151">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Landing Gear Foot Endcap (BLACK).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0067864782677616985</Mass>
+<CenterOfMass>0 0 -0.013562780735318566</CenterOfMass>
+<Inertia>8.1479443435453437e-07 8.2722339919828508e-07 7.231216570834931e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Landing Gear Foot Endcap (BLACK)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0" b="0" a="1"/>
+<Diffuse r="0" g="0" b="0" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.15000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Landing Gear Foot Endcap (RED)" uid="Tarot Landing Gear Foot Endcap (RED)*:*Default" version="150">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Landing Gear Foot Endcap (RED).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0067864782677616985</Mass>
+<CenterOfMass>0 0 -0.013562780735318566</CenterOfMass>
+<Inertia>8.1479443435453427e-07 8.2722339919828508e-07 7.231216570834931e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Landing Gear Foot Endcap (RED)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0" b="0" a="1"/>
+<Diffuse r="1" g="0" b="0" a="1"/>
+<Specular r="0.5" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.15000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Landing Gear Foot" uid="Tarot Landing Gear Foot*:*Default" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Landing Gear Foot.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.041593901335365467</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0.0006762709286107937 0.0006762709286107937 2.3500554254481492e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Landing Gear Foot_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Landing Gear Hub Mount" uid="Tarot Landing Gear Hub Mount*:*Default" version="194">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Landing Gear Hub Mount.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.018266115885691249</Mass>
+<CenterOfMass>-0.0042580792606026667 0.0039176158826778303 3.2219251084120656e-10</CenterOfMass>
+<Inertia>1.4556614941571688e-06 7.9481445965668037e-06 7.8662874416415174e-06 -3.299576416195446e-14 1.6301041954021928e-13 1.3645689340391854e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Landing Gear Hub Mount_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.17568627151788449" g="0.17568627151788449" b="0.17568627151788449" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Landing Gear Leg Mount" uid="Tarot Landing Gear Leg Mount*:*Default" version="241">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Landing Gear Leg Mount.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011380357428558075</Mass>
+<CenterOfMass>0.033801086309347389 0.00072294159718632866 9.3198289972265165e-09</CenterOfMass>
+<Inertia>1.1347917209219104e-06 3.9820813252631963e-06 4.0511131633934829e-06 -4.8785293539607599e-12 2.5445935448774385e-13 -1.9276273316006244e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Landing Gear Leg Mount_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.17568627151788449" g="0.17568627151788449" b="0.17568627151788449" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Landing Gear Leg" uid="Tarot Landing Gear Leg*:*Default" version="128">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Landing Gear Leg.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.053087685851578192</Mass>
+<CenterOfMass>2.5308192970740904e-08 -0.17620896528287291 1.5375064931174641e-09</CenterOfMass>
+<Inertia>0.00055248629637189906 7.6579139218437329e-06 0.0005524781711131367 1.740193696728101e-12 1.2896144859513409e-12 2.3485245592513999e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Landing Gear Leg_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Landing Gear Mount Bolt" uid="Tarot Landing Gear Mount Bolt*:*Default" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Landing Gear Mount Bolt.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0012625766350466106</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>5.778918473327921e-08 5.778918473327921e-08 1.1402645235264702e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Landing Gear Mount Bolt_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Main Arm" uid="Tarot Main Arm*:*Default" version="309">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Main Arm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.023949163109147065</Mass>
+<CenterOfMass>-1.5703931428567865e-10 -0.00031762147270734801 -0.023304208049579681</CenterOfMass>
+<Inertia>0.00025820878218157201 0.00025637373248383255 4.1466400126009819e-06 -1.1509425928740956e-06 -4.1842337495720247e-13 -5.4073167455502781e-15</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Main Arm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.44705882352941173" g="0.4568627450980392" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Motor Mount Base" uid="Tarot Motor Mount Base*:*Default" version="190">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Motor Mount Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.025657806559675232</Mass>
+<CenterOfMass>9.1441207243006336e-10 -2.106237444447469e-09 -0.010753063929721317</CenterOfMass>
+<Inertia>1.99295473038326e-05 2.7006939857918717e-05 7.4379575148181326e-06 1.8045357512630816e-12 -7.8815647451344274e-13 -1.9590839595500035e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Motor Mount Base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Motor Mount Bottom Dampener" uid="Tarot Motor Mount Bottom Dampener*:*Default" version="127">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Motor Mount Bottom Dampener.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0001243877171664148</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>7.5589774223900898e-10 1.4288703397004081e-09 7.5589774223900908e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Motor Mount Bottom Dampener_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.15000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Motor Mount Screw" uid="Tarot Motor Mount Screw*:*Default" version="128">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Motor Mount Screw.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.4694878730817277e-05</Mass>
+<CenterOfMass>0 -0.0030820250810679284 0</CenterOfMass>
+<Inertia>1.1712190970791998e-09 3.9603886600326764e-10 1.1712190970791998e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Motor Mount Screw_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Motor Mount Top Dampener" uid="Tarot Motor Mount Top Dampener*:*Default" version="125">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Motor Mount Top Dampener.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00017103311110382011</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>1.0901348504375828e-09 1.9646967170880586e-09 1.0901348504375824e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Motor Mount Top Dampener_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.15000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Motor Mount Top Plate" uid="Tarot Motor Mount Top Plate*:*Default" version="190">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Motor Mount Top Plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0098767472766890449</Mass>
+<CenterOfMass>0.028756947992815772 0 0</CenterOfMass>
+<Inertia>2.1128634164969635e-06 5.0192424375002346e-06 2.9129635191877315e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Motor Mount Top Plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.050000000000000003" g="0.050000000000000003" b="0.050000000000000003" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Sunny Sky Motor Bottom" uid="Tarot Sunny Sky Motor Bottom*:*Default" version="145">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Sunny Sky Motor Bottom.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0036557729790421194</Mass>
+<CenterOfMass>5.7654199931925529e-08 -0.0039244543733718273 -2.5702021513081867e-07</CenterOfMass>
+<Inertia>5.0441053116719665e-07 9.8849596285832697e-07 5.0420405276613003e-07 6.2719298492729783e-13 6.6977582376521137e-12 -8.0737997226760365e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Sunny Sky Motor Bottom_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tarot Sunny Sky Motor Top" uid="Tarot Sunny Sky Motor Top*:*Default" version="133">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tarot Sunny Sky Motor Top.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.008297177248153393</Mass>
+<CenterOfMass>6.1810704468536078e-09 0.014042819352752089 1.4170959722059455e-08</CenterOfMass>
+<Inertia>2.082046069601057e-06 3.1749133385201157e-06 2.0820396257431501e-06 -1.2207260514626178e-12 -7.8637571830546189e-13 -5.3245467235181498e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Tarot Sunny Sky Motor Top_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="socket head cap screw_iso" uid="socket head cap screw_iso*:*ISO 4762 M3 x 10 --- 10N" version="1098">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="socket head cap screw_iso.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00013290497280393307</Mass>
+<CenterOfMass>0.0049756850193129355 0 0</CenterOfMass>
+<Inertia>3.4043760080429798e-10 2.1419081159046912e-09 2.1419081159046912e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="socket head cap screw_iso_ISO 4762 M3 x 10 --- 10N_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
